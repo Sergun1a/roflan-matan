@@ -49,7 +49,7 @@ $this->title = 'Рофлан матан';
     </div>
 </div>
 <?php
-echo Accordion::widget([
+/*echo Accordion::widget([
     'items' => [
         [
             'header' => 'Вопрос 1',
@@ -67,5 +67,5 @@ echo Accordion::widget([
     'itemOptions' => ['tag' => 'div'],
     'headerOptions' => ['tag' => 'h3'],
     'clientOptions' => ['collapsible' => true, 'active' => none],
-]);
+]);*/
 ?>
