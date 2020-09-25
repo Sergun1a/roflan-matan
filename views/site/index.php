@@ -5,14 +5,12 @@
 use yii\helpers\Url;
 use yii\jui\Accordion;
 
-$this->title = 'Рофлан матан';
+$this->title = 'Мат. анализ';
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Матан</h1>
-
-        <p class="lead">Помоги себе не отчислиться XD</p>
+        <h1>Мат. анализ</h1>
     </div>
 
     <div class="body-content">
@@ -20,7 +18,7 @@ $this->title = 'Рофлан матан';
         <div class="row" align="center">
             <div class="col-lg-6 col-md-6 col-xs-12">
                 <h2>Тренажер</h2>
-                <p>Попробуйте свои силы на теоритических вопросах.</p>
+                <p>Попробуйте свои силы на теоретических вопросах.</p>
                 <span>
                     <p class="semester-selector">
                         <a class="btn btn-default"
@@ -35,7 +33,7 @@ $this->title = 'Рофлан матан';
             </div>
             <div class="col-lg-6 col-md-6 col-xs-12">
                 <h2>Теория</h2>
-                <p>Теоритическая информация</p>
+                <p>Теоретическая информация</p>
                 <span>
                     <p class="semester-selector">
                         <a class="btn btn-default" href="<?php echo Url::toRoute(['site/theory', 'semestr' => 1]); ?>">Первый семестр &raquo;</a>

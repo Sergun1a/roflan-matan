@@ -30,7 +30,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => Html::decode("<span><img src='/web/images/roflan-face.jpg' width='30px' height='30px'> <span>матан</span></span>"),
+        'brandLabel' => Html::decode("<span>Мат. анализ</span>"),
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -70,7 +70,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">Sergun1a <?= date('Y') ?></p>
+        <p class="pull-left"><a href="https://github.com/Sergun1a">Sergun1a</a> <?= date('Y') ?></p>
 
         <p class="pull-right"><?php //Yii::powered() ?></p>
     </div>
