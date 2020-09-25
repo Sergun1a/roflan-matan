@@ -15,6 +15,8 @@ use app\models\ContactForm;
 
 class SiteController extends Controller
 {
+    const none = 'none';
+
     /**
      * {@inheritdoc}
      */
@@ -24,17 +26,17 @@ class SiteController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['theory', 'training'],
+                'only'  => ['theory', 'training'],
                 'rules' => [
                     [
                         'actions' => ['theory', 'training'],
-                        'allow' => true,
-                        'roles' => ['@', '?'],
+                        'allow'   => true,
+                        'roles'   => ['@', '?'],
                     ],
                 ],
             ],
-            'verbs' => [
-                'class' => VerbFilter::className(),
+            'verbs'  => [
+                'class'   => VerbFilter::className(),
                 'actions' => [
                     'logout' => ['post'],
                 ],
@@ -48,11 +50,11 @@ class SiteController extends Controller
     public function actions()
     {
         return [
-            'error' => [
+            'error'   => [
                 'class' => 'yii\web\ErrorAction',
             ],
             'captcha' => [
-                'class' => 'yii\captcha\CaptchaAction',
+                'class'           => 'yii\captcha\CaptchaAction',
                 'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
             ],
         ];
@@ -68,11 +70,12 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
-
     public function actionTheory()
     {
         $semester = Yii::$app->request->get('semestr');
-        if ($semester == null) return $this->render('theorySemesterSelector');
+        if ($semester == null) {
+            return $this->render('theorySemesterSelector');
+        }
 
         $questions = Theory::find()
             ->andWhere(['semestr' => $semester])
@@ -87,21 +90,20 @@ class SiteController extends Controller
     protected function formatForAccordeon($questions)
     {
         $data = [
-            'options' => ['tag' => 'div'],
-            'itemOptions' => ['tag' => 'div'],
+            'options'       => ['tag' => 'div'],
+            'itemOptions'   => ['tag' => 'div'],
             'headerOptions' => ['tag' => 'h3'],
-            'clientOptions' => ['collapsible' => true, 'active' => none],
+            'clientOptions' => ['collapsible' => true, 'active' => self::none],
         ];
         foreach ($questions as $question) {
             $data['items'][] = [
-                'header' => $question->question,
+                'header'  => $question->question,
                 'content' => $question->answer,
                 'options' => ['tag' => 'div'],
             ];
         }
         return $data;
     }
-
 
     /**
      * Login action.
