@@ -3,7 +3,7 @@
 
 use yii\jui\Accordion;
 
-$this->title = 'Рофлан матан';
+$this->title = 'Мат. анализ';
 ?>
 
 <div>

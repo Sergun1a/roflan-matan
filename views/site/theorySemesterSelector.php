@@ -2,7 +2,7 @@
 
 use yii\helpers\Url;
 
-$this->title = 'Рофлан матан';
+$this->title = 'Мат. анализ';
 ?>
 
     <div class="body-content">
