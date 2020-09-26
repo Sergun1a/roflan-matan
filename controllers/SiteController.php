@@ -3,6 +3,8 @@
 namespace app\controllers;
 
 use app\models\Theory;
+use app\models\Training;
+use http\Url;
 use TheSeer\Tokenizer\Exception;
 use Yii;
 use yii\filters\AccessControl;
@@ -139,13 +141,18 @@ class SiteController extends Controller
         return $this->goHome();
     }
 
-    /**
-     * Displays about page.
-     *
-     * @return string
-     */
-    public function actionAbout()
+    public function actionTraining()
     {
-        return $this->render('about');
+        $semester = Yii::$app->request->get('semestr');
+        $data     = Training::find()->andWhere(['id' => 1])->one();
+        if (!is_null(\Yii::$app->request->post('Training')) &&
+            $data->load(\Yii::$app->request->post()) &&
+            $data->validate()
+        ) {
+            $this->render('index');
+        }
+        return $this->render('training', [
+            'data' => $data,
+        ]);
     }
 }

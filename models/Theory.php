@@ -35,5 +35,4 @@ class Theory extends ActiveRecord
             [['question', 'answer', 'helper'], 'string'],
         ];
     }
-
 }

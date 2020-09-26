@@ -22,11 +22,7 @@ $this->title = 'Мат. анализ';
                 <span>
                     <p class="semester-selector">
                         <a class="btn btn-default"
-                           href="<?php echo Url::toRoute(['site/training', 'semestr' => 1]); ?>">Первый семестр &raquo;</a>
-                        <a class="btn btn-default"
-                           href="<?php echo Url::toRoute(['site/training', 'semestr' => 2]); ?>">Второй семестр &raquo;</a>
-                        <a class="btn btn-default"
-                           href="<?php echo Url::toRoute(['site/training', 'semestr' => 3]); ?>">Третий семестр &raquo;</a>
+                           href="<?php echo Url::toRoute(['site/training', 'semestr' => 1]); ?>">Тестовая задача &raquo;</a>
                     </p>
                 </span>
 
@@ -36,9 +32,7 @@ $this->title = 'Мат. анализ';
                 <p>Теоретическая информация</p>
                 <span>
                     <p class="semester-selector">
-                        <a class="btn btn-default" href="<?php echo Url::toRoute(['site/theory', 'semestr' => 1]); ?>">Первый семестр &raquo;</a>
                         <a class="btn btn-default" href="<?php echo Url::toRoute(['site/theory', 'semestr' => 2]); ?>">Второй семестр &raquo;</a>
-                        <a class="btn btn-default" href="<?php echo Url::toRoute(['site/theory', 'semestr' => 3]); ?>">Третий семестр &raquo;</a>
                     </p>
                 </span>
             </div>
