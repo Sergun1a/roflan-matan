@@ -149,7 +149,7 @@ class SiteController extends Controller
             $data->load(\Yii::$app->request->post()) &&
             $data->validate()
         ) {
-            $this->render('index');
+            return $this->render('index');
         }
         return $this->render('training', [
             'data' => $data,

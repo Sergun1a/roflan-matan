@@ -25,7 +25,7 @@ $this->title = 'Мат. анализ';
             <?=
             $form->field($data, 'answer', [
                 'inputOptions' => [
-                    'placeholder' => 'Ваш ответ',
+                    'placeholder' => 'Ваш ответ в виде обыкновенной дроби',
                     'class'       => 'form-control',
                     'value'       => '',
                 ],
