@@ -45,7 +45,7 @@
 <body>
 <div id="header">
     <script>
-        $("#header").load("../views/site/static/header.html");
+        $("#header").load("header.html");
     </script>
 </div>
 <div class="nav_chain">
@@ -444,7 +444,7 @@
     </script>
     <div id="footer">
         <script>
-            $("#footer").load("../views/site/static/footer.html");
+            $("#footer").load("footer.html");
         </script>
     </div>
 </div>
