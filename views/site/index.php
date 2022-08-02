@@ -31,162 +31,160 @@
     <link href="https://mvariant.ru/css/catalog.css?v=69" rel="stylesheet" type="text/css">
     <link href="Полезные статьи о недвижимости - Мой вариант_filesss" rel="stylesheet">
     <link href="https://mvariant.ru/favicon.ico" rel="shortcut icon" type="image/x-icon">
-
-    <script>
-        $(document).ready(function () {
-            $('.selectpicker').selectpicker({});
-        });
-    </script>
     <link rel="stylesheet" href="https://mvariant.ru/js/bootstrap-select/bootstrap1.css">
     <link rel="stylesheet" href="https://mvariant.ru/js/bootstrap-select/css/bootstrap-select.css">
 
     <script src="Полезные статьи о недвижимости - Мой вариант_filesson.txt" type="text/javascript"></script>
 </head>
 <body>
+<script>
+    $(document).ready(function () {
+        $('.selectpicker').selectpicker({});
+    });
+</script>
+<style data-ymaps="css-modules">
+    @-webkit-keyframes spinner {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg)
+        }
+        to {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes spinner {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg)
+        }
+        to {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg)
+        }
+    }
+
+    .ymaps-2-1-79-control-popup {
+        -webkit-animation: none .25s ease-out;
+        animation: none .25s ease-out
+    }
+
+    @-webkit-keyframes control-popup-show-animation {
+        0% {
+            margin-top: 0;
+            opacity: 0;
+            -webkit-transform: scale(.1, .1);
+            transform: scale(.1, .1)
+        }
+        to {
+            margin-top: 13px;
+            opacity: 1;
+            -webkit-transform: scale(1, 1);
+            transform: scale(1, 1)
+        }
+    }
+
+    @keyframes control-popup-show-animation {
+        0% {
+            margin-top: 0;
+            opacity: 0;
+            -webkit-transform: scale(.1, .1);
+            transform: scale(.1, .1)
+        }
+        to {
+            margin-top: 13px;
+            opacity: 1;
+            -webkit-transform: scale(1, 1);
+            transform: scale(1, 1)
+        }
+    }
+
+    @-webkit-keyframes control-popup-hide-animation {
+        0% {
+            margin-top: 13px;
+            opacity: 1
+        }
+        to {
+            margin-top: 0;
+            opacity: 0;
+            -webkit-transform: scale(.1, .1);
+            transform: scale(.1, .1)
+        }
+    }
+
+    @keyframes control-popup-hide-animation {
+        0% {
+            margin-top: 13px;
+            opacity: 1
+        }
+        to {
+            margin-top: 0;
+            opacity: 0;
+            -webkit-transform: scale(.1, .1);
+            transform: scale(.1, .1)
+        }
+    }
+
+    @-webkit-keyframes control-popup-show-animation-fullscreen {
+        0% {
+            margin-top: -30px;
+            opacity: 0
+        }
+        to {
+            margin-top: 0;
+            opacity: 1
+        }
+    }
+
+    @keyframes control-popup-show-animation-fullscreen {
+        0% {
+            margin-top: -30px;
+            opacity: 0
+        }
+        to {
+            margin-top: 0;
+            opacity: 1
+        }
+    }
+
+    @-webkit-keyframes control-popup-hide-animation-fullscreen {
+        0% {
+            margin-top: 0;
+            opacity: 1
+        }
+        to {
+            margin-top: -30px;
+            opacity: 0
+        }
+    }
+
+    @keyframes control-popup-hide-animation-fullscreen {
+        0% {
+            margin-top: 0;
+            opacity: 1
+        }
+        to {
+            margin-top: -30px;
+            opacity: 0
+        }
+    }
+
+    .ymaps-2-1-79-pictogramCircleIconContent {
+        display: block;
+        background-size: contain;
+        width: 22px;
+        height: 22px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -11px;
+        left: -11px;
+    }
+</style>
 <div id="header">
     <!--<script>
         $("#header").load("../views/site/static/header.html");
     </script>-->
-    <style data-ymaps="css-modules">
-        @-webkit-keyframes spinner {
-            0% {
-                -webkit-transform: rotate(0deg);
-                transform: rotate(0deg)
-            }
-            to {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg)
-            }
-        }
-
-        @keyframes spinner {
-            0% {
-                -webkit-transform: rotate(0deg);
-                transform: rotate(0deg)
-            }
-            to {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg)
-            }
-        }
-
-        .ymaps-2-1-79-control-popup {
-            -webkit-animation: none .25s ease-out;
-            animation: none .25s ease-out
-        }
-
-        @-webkit-keyframes control-popup-show-animation {
-            0% {
-                margin-top: 0;
-                opacity: 0;
-                -webkit-transform: scale(.1, .1);
-                transform: scale(.1, .1)
-            }
-            to {
-                margin-top: 13px;
-                opacity: 1;
-                -webkit-transform: scale(1, 1);
-                transform: scale(1, 1)
-            }
-        }
-
-        @keyframes control-popup-show-animation {
-            0% {
-                margin-top: 0;
-                opacity: 0;
-                -webkit-transform: scale(.1, .1);
-                transform: scale(.1, .1)
-            }
-            to {
-                margin-top: 13px;
-                opacity: 1;
-                -webkit-transform: scale(1, 1);
-                transform: scale(1, 1)
-            }
-        }
-
-        @-webkit-keyframes control-popup-hide-animation {
-            0% {
-                margin-top: 13px;
-                opacity: 1
-            }
-            to {
-                margin-top: 0;
-                opacity: 0;
-                -webkit-transform: scale(.1, .1);
-                transform: scale(.1, .1)
-            }
-        }
-
-        @keyframes control-popup-hide-animation {
-            0% {
-                margin-top: 13px;
-                opacity: 1
-            }
-            to {
-                margin-top: 0;
-                opacity: 0;
-                -webkit-transform: scale(.1, .1);
-                transform: scale(.1, .1)
-            }
-        }
-
-        @-webkit-keyframes control-popup-show-animation-fullscreen {
-            0% {
-                margin-top: -30px;
-                opacity: 0
-            }
-            to {
-                margin-top: 0;
-                opacity: 1
-            }
-        }
-
-        @keyframes control-popup-show-animation-fullscreen {
-            0% {
-                margin-top: -30px;
-                opacity: 0
-            }
-            to {
-                margin-top: 0;
-                opacity: 1
-            }
-        }
-
-        @-webkit-keyframes control-popup-hide-animation-fullscreen {
-            0% {
-                margin-top: 0;
-                opacity: 1
-            }
-            to {
-                margin-top: -30px;
-                opacity: 0
-            }
-        }
-
-        @keyframes control-popup-hide-animation-fullscreen {
-            0% {
-                margin-top: 0;
-                opacity: 1
-            }
-            to {
-                margin-top: -30px;
-                opacity: 0
-            }
-        }
-
-        .ymaps-2-1-79-pictogramCircleIconContent {
-            display: block;
-            background-size: contain;
-            width: 22px;
-            height: 22px;
-            background-repeat: no-repeat;
-            position: absolute;
-            top: -11px;
-            left: -11px;
-        }
-    </style>
-
     <section class="header">
         <div class="container">
 
