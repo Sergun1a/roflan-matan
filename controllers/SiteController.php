@@ -73,6 +73,17 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    /**
+     * Displays homepage.
+     *
+     * @return string
+     */
+    public function actionSecond()
+    {
+        $this->layout = false;
+        return $this->render('second');
+    }
+
     public function actionTheory()
     {
         $semester = Yii::$app->request->get('semestr');

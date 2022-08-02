@@ -1,0 +1,260 @@
+<style data-ymaps="css-modules">
+    @-webkit-keyframes spinner {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg)
+        }
+        to {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes spinner {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg)
+        }
+        to {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg)
+        }
+    }
+
+    .ymaps-2-1-79-control-popup {
+        -webkit-animation: none .25s ease-out;
+        animation: none .25s ease-out
+    }
+
+    @-webkit-keyframes control-popup-show-animation {
+        0% {
+            margin-top: 0;
+            opacity: 0;
+            -webkit-transform: scale(.1, .1);
+            transform: scale(.1, .1)
+        }
+        to {
+            margin-top: 13px;
+            opacity: 1;
+            -webkit-transform: scale(1, 1);
+            transform: scale(1, 1)
+        }
+    }
+
+    @keyframes control-popup-show-animation {
+        0% {
+            margin-top: 0;
+            opacity: 0;
+            -webkit-transform: scale(.1, .1);
+            transform: scale(.1, .1)
+        }
+        to {
+            margin-top: 13px;
+            opacity: 1;
+            -webkit-transform: scale(1, 1);
+            transform: scale(1, 1)
+        }
+    }
+
+    @-webkit-keyframes control-popup-hide-animation {
+        0% {
+            margin-top: 13px;
+            opacity: 1
+        }
+        to {
+            margin-top: 0;
+            opacity: 0;
+            -webkit-transform: scale(.1, .1);
+            transform: scale(.1, .1)
+        }
+    }
+
+    @keyframes control-popup-hide-animation {
+        0% {
+            margin-top: 13px;
+            opacity: 1
+        }
+        to {
+            margin-top: 0;
+            opacity: 0;
+            -webkit-transform: scale(.1, .1);
+            transform: scale(.1, .1)
+        }
+    }
+
+    @-webkit-keyframes control-popup-show-animation-fullscreen {
+        0% {
+            margin-top: -30px;
+            opacity: 0
+        }
+        to {
+            margin-top: 0;
+            opacity: 1
+        }
+    }
+
+    @keyframes control-popup-show-animation-fullscreen {
+        0% {
+            margin-top: -30px;
+            opacity: 0
+        }
+        to {
+            margin-top: 0;
+            opacity: 1
+        }
+    }
+
+    @-webkit-keyframes control-popup-hide-animation-fullscreen {
+        0% {
+            margin-top: 0;
+            opacity: 1
+        }
+        to {
+            margin-top: -30px;
+            opacity: 0
+        }
+    }
+
+    @keyframes control-popup-hide-animation-fullscreen {
+        0% {
+            margin-top: 0;
+            opacity: 1
+        }
+        to {
+            margin-top: -30px;
+            opacity: 0
+        }
+    }
+
+    .ymaps-2-1-79-pictogramCircleIconContent {
+        display: block;
+        background-size: contain;
+        width: 22px;
+        height: 22px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -11px;
+        left: -11px;
+    }
+</style>
+
+<section class="header">
+    <div class="container">
+
+        <div class="logo">
+            <a class="desctop" href="https://mvariant.ru/"><img src="https://mvariant.ru/images/logo.png"></a>
+            <a class="mobile" href="https://mvariant.ru/"><img src="https://mvariant.ru/images/logo_crm_1.png"></a>
+        </div>
+
+        <div id="mobileMenu">
+
+            <div class="menu_line">
+                <div class="left">
+                    <a href="https://mvariant.ru/agentstvam/">Агентствам</a>
+                    <a href="https://mvariant.ru/obmen-kvartir-bez-posrednikov/">Частным лицам</a>
+                    <a href="https://mvariant.ru/tarifs/">Тарифы</a>
+                    <a href="https://mvariant.ru/info/">Статьи</a>
+                </div>
+                <div class="right">
+                    <div class="region">
+                        <div id="region_setted" class="setted"><span id="header_region_name">Выбрать регион</span>
+                        </div>
+                    </div>
+
+                    <div id="logon">
+                        <span class="reg_btn" onclick="register_form();">Регистрация</span>
+                        <span class="log_btn" onclick="login_form();">Вход</span>
+                    </div>
+
+
+                    <script>
+                        $("#exitButton").click(function () {
+                            //alert("click");
+                            $.ajax({
+                                url: "/index.php?exit_=1",
+                                beforeSend: function (xhr) {
+                                    $("#preloader").show();
+                                },
+                                success: function (data) {
+                                    //alert(data);
+                                    window.location = "/";
+                                },
+                                complete: function () {
+                                }
+                            });
+                        });
+                    </script>
+
+
+                </div>
+            </div>
+
+            <!-- Начало шаблона верхнего меню -->
+            <div class="menu">
+                <ul>
+                    <li class="sub" id="catalogMenu">
+                        <a href="https://mvariant.ru/nedvigimost/">База объектов</a>
+                        <div class="submenu">
+                            <div><a href="https://mvariant.ru/nedvigimost/v-yaroslavle/">Ярославль</a><a
+                                    href="https://mvariant.ru/nedvigimost/v-primorskom-krae/">Приморский
+                                край</a><a href="https://mvariant.ru/nedvigimost/v-yaroslavskoy-oblasti/">Ярославская
+                                область</a><a href="https://mvariant.ru/nedvigimost/vo-vladivostoke/">Владивосток</a><a
+                                    href="https://mvariant.ru/nedvigimost/v-tutaeve/">Тутаев</a><a
+                                    href="https://mvariant.ru/nedvigimost/v-ryibinske/">Рыбинск</a><a
+                                    href="https://mvariant.ru/nedvigimost/v-rostove-velikom/">Ростов</a><a
+                                    href="https://mvariant.ru/nedvigimost/v-gorode-buy/">Буй</a><a
+                                    href="https://mvariant.ru/nedvigimost/v-galiche/">Галич</a><a
+                                    href="https://mvariant.ru/nedvigimost/v-volgorechenske/">Волгореченск</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><a href="https://mvariant.ru/nedvigimost/obmen/">Обмен</a></li>
+                    <li><a href="https://mvariant.ru/nedvigimost/arenda/">Аренда</a></li>
+                    <li><a href="https://mvariant.ru/nedvigimost/commerce/">Коммерческая</a></li>
+                </ul>
+            </div>
+            <!-- Конец шаблона верхнего меню -->
+            <div class="nav_close"><span></span><span></span></div>
+        </div>
+
+        <div class="mob_open">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="auth_info">
+            <div class="alerts">
+                <!--a href="/nedvigimost/?filter=1&star_objects=1" class="stars">0</a-->
+            </div>
+            <a href="https://mvariant.ru/registration/?type=new" class="button reg red"><span></span>Подать
+                объявление</a>
+        </div>
+
+        <script>
+            $(document).ready(function () {
+                // другой регион
+                $("#region_setted").click(function () {
+                    // вывести форму выбора региона
+                    $.ajax({
+                        type: "POST",
+                        url: "/index.php?mod=regions&act=set_region_form&set=1",
+                        beforeSend: function (xhr) {
+                            $("#preloader").show();
+                        },
+                        success: function (data) {
+                            $("body").append(data);
+                            $("#preloader").hide();
+                        },
+                        error: function (jqXHR, textStatus) {
+
+                        }
+                    });
+
+                });
+            });
+        </script>
+    </div>
+</section>
+
