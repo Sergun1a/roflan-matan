@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from url=(0025)https://mvariant.ru/info/ -->
-<html>
+<html lang="ru">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <meta http-equiv="Content-Type" content="text/html" charset=windows-1251">
 
     <!-- Начало шаблона метаданных -->
     <title>Полезные статьи о недвижимости - Мой вариант</title>
