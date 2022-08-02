@@ -727,12 +727,11 @@
 
     <!-- Начало шаблона футера -->
     <footer>
-        <div class="container">
+        <div class="container" id="footer">
             <a id="topButton" href="https://mvariant.ru/info/#" style="display: none;"></a>
-
             <!--Подключение плагина inputmask -->
-            <script src="https://mvariant.ru/js/inputmask.js" type="text/javascript"></script>
-            <script src="https://mvariant.ru/js/jquery.inputmask.js" type="text/javascript"></script>
+            <script async src="https://mvariant.ru/js/inputmask.js" type="text/javascript"></script>
+            <script async src="https://mvariant.ru/js/jquery.inputmask.js" type="text/javascript"></script>
 
             <!--Подключение плагина для селектов -->
             <script src="https://mvariant.ru/js/bootstrap-select/bootstrap.js"></script>
@@ -744,9 +743,9 @@
                   media="screen">
 
             <script type="text/javascript" src="https://mvariant.ru/js/obmen/main.js"></script>
-            <script type="text/javascript" src="https://mvariant.ru/scripts/jquery.form.js"></script>
+            <script async type="text/javascript" src="https://mvariant.ru/scripts/jquery.form.js"></script>
             <script type="text/javascript" src="https://mvariant.ru/js/obmen/common_func.js"></script>
-            <script type="text/javascript" src="https://mvariant.ru/js/obmen/validation.js"></script>
+            <script async type="text/javascript" src="https://mvariant.ru/js/obmen/validation.js"></script>
 
             <script>
                 $(document).ready(function () {
