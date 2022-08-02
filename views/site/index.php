@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta http-equiv="Content-Type" content="text/html" charset=windows-1251">
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
 
-    <!-- Начало шаблона метаданных -->
-    <title>Полезные статьи о недвижимости - Мой вариант</title>
-    <meta name="KeyWords" content="Полезные статьи о недвижимости - Мой вариант">
-    <meta name="Description" content="Полезные статьи о недвижимости - Мой вариант">
+    <!-- РќР°С‡Р°Р»Рѕ С€Р°Р±Р»РѕРЅР° РјРµС‚Р°РґР°РЅРЅС‹С… -->
+    <title>РџРѕР»РµР·РЅС‹Рµ СЃС‚Р°С‚СЊРё Рѕ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё - РњРѕР№ РІР°СЂРёР°РЅС‚</title>
+    <meta name="KeyWords" content="РџРѕР»РµР·РЅС‹Рµ СЃС‚Р°С‚СЊРё Рѕ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё - РњРѕР№ РІР°СЂРёР°РЅС‚">
+    <meta name="Description" content="РџРѕР»РµР·РЅС‹Рµ СЃС‚Р°С‚СЊРё Рѕ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё - РњРѕР№ РІР°СЂРёР°РЅС‚">
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script async="" src="Полезные статьи о недвижимости - Мой вариант_filesag.js.Без названия"></script>
+    <script async="" src="РџРѕР»РµР·РЅС‹Рµ СЃС‚Р°С‚СЊРё Рѕ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё - РњРѕР№ РІР°СЂРёР°РЅС‚_filesag.js.Р‘РµР· РЅР°Р·РІР°РЅРёСЏ"></script>
     <script type="text/javascript" src="https://mvariant.ru/js/jquery_1.11.3_jquery.min.js"></script>
 
 
@@ -35,7 +35,7 @@
     <link href="https://mvariant.ru/css/catalog.css?v=69" rel="stylesheet" type="text/css">
 
 
-    <link href="Полезные статьи о недвижимости - Мой вариант_filesss" rel="stylesheet">
+    <link href="РџРѕР»РµР·РЅС‹Рµ СЃС‚Р°С‚СЊРё Рѕ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё - РњРѕР№ РІР°СЂРёР°РЅС‚_filesss" rel="stylesheet">
 
     <link href="https://mvariant.ru/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
@@ -48,9 +48,9 @@
     <link rel="stylesheet" href="https://mvariant.ru/js/bootstrap-select/bootstrap1.css">
     <link rel="stylesheet" href="https://mvariant.ru/js/bootstrap-select/css/bootstrap-select.css">
 
-    <script src="Полезные статьи о недвижимости - Мой вариант_filesson.txt" type="text/javascript"></script>
+    <script src="РџРѕР»РµР·РЅС‹Рµ СЃС‚Р°С‚СЊРё Рѕ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё - РњРѕР№ РІР°СЂРёР°РЅС‚_filesson.txt" type="text/javascript"></script>
 
-    <!-- Конец шаблона метаданных -->
+    <!-- РљРѕРЅРµС† С€Р°Р±Р»РѕРЅР° РјРµС‚Р°РґР°РЅРЅС‹С… -->
 
     <style type="text/css" data-ymaps="css-modules">
         @-webkit-keyframes spinner {
@@ -207,20 +207,20 @@
 
                 <div class="menu_line">
                     <div class="left">
-                        <a href="https://mvariant.ru/agentstvam/">Агентствам</a>
-                        <a href="https://mvariant.ru/obmen-kvartir-bez-posrednikov/">Частным лицам</a>
-                        <a href="https://mvariant.ru/tarifs/">Тарифы</a>
-                        <a href="https://mvariant.ru/info/">Статьи</a>
+                        <a href="https://mvariant.ru/agentstvam/">РђРіРµРЅС‚СЃС‚РІР°Рј</a>
+                        <a href="https://mvariant.ru/obmen-kvartir-bez-posrednikov/">Р§Р°СЃС‚РЅС‹Рј Р»РёС†Р°Рј</a>
+                        <a href="https://mvariant.ru/tarifs/">РўР°СЂРёС„С‹</a>
+                        <a href="https://mvariant.ru/info/">РЎС‚Р°С‚СЊРё</a>
                     </div>
                     <div class="right">
                         <div class="region">
-                            <div id="region_setted" class="setted"><span id="header_region_name">Выбрать регион</span>
+                            <div id="region_setted" class="setted"><span id="header_region_name">Р’С‹Р±СЂР°С‚СЊ СЂРµРіРёРѕРЅ</span>
                             </div>
                         </div>
 
                         <div id="logon">
-                            <span class="reg_btn" onclick="register_form();">Регистрация</span>
-                            <span class="log_btn" onclick="login_form();">Вход</span>
+                            <span class="reg_btn" onclick="register_form();">Р РµРіРёСЃС‚СЂР°С†РёСЏ</span>
+                            <span class="log_btn" onclick="login_form();">Р’С…РѕРґ</span>
                         </div>
 
 
@@ -247,32 +247,32 @@
                 </div>
 
 
-                <!-- Начало шаблона верхнего меню -->
+                <!-- РќР°С‡Р°Р»Рѕ С€Р°Р±Р»РѕРЅР° РІРµСЂС…РЅРµРіРѕ РјРµРЅСЋ -->
                 <div class="menu">
                     <ul>
                         <li class="sub" id="catalogMenu">
-                            <a href="https://mvariant.ru/nedvigimost/">База объектов</a>
+                            <a href="https://mvariant.ru/nedvigimost/">Р‘Р°Р·Р° РѕР±СЉРµРєС‚РѕРІ</a>
                             <div class="submenu">
-                                <div><a href="https://mvariant.ru/nedvigimost/v-yaroslavle/">Ярославль</a><a
-                                            href="https://mvariant.ru/nedvigimost/v-primorskom-krae/">Приморский
-                                        край</a><a href="https://mvariant.ru/nedvigimost/v-yaroslavskoy-oblasti/">Ярославская
-                                        область</a><a href="https://mvariant.ru/nedvigimost/vo-vladivostoke/">Владивосток</a><a
-                                            href="https://mvariant.ru/nedvigimost/v-tutaeve/">Тутаев</a><a
-                                            href="https://mvariant.ru/nedvigimost/v-ryibinske/">Рыбинск</a><a
-                                            href="https://mvariant.ru/nedvigimost/v-rostove-velikom/">Ростов</a><a
-                                            href="https://mvariant.ru/nedvigimost/v-gorode-buy/">Буй</a><a
-                                            href="https://mvariant.ru/nedvigimost/v-galiche/">Галич</a><a
-                                            href="https://mvariant.ru/nedvigimost/v-volgorechenske/">Волгореченск</a>
+                                <div><a href="https://mvariant.ru/nedvigimost/v-yaroslavle/">РЇСЂРѕСЃР»Р°РІР»СЊ</a><a
+                                            href="https://mvariant.ru/nedvigimost/v-primorskom-krae/">РџСЂРёРјРѕСЂСЃРєРёР№
+                                        РєСЂР°Р№</a><a href="https://mvariant.ru/nedvigimost/v-yaroslavskoy-oblasti/">РЇСЂРѕСЃР»Р°РІСЃРєР°СЏ
+                                        РѕР±Р»Р°СЃС‚СЊ</a><a href="https://mvariant.ru/nedvigimost/vo-vladivostoke/">Р’Р»Р°РґРёРІРѕСЃС‚РѕРє</a><a
+                                            href="https://mvariant.ru/nedvigimost/v-tutaeve/">РўСѓС‚Р°РµРІ</a><a
+                                            href="https://mvariant.ru/nedvigimost/v-ryibinske/">Р С‹Р±РёРЅСЃРє</a><a
+                                            href="https://mvariant.ru/nedvigimost/v-rostove-velikom/">Р РѕСЃС‚РѕРІ</a><a
+                                            href="https://mvariant.ru/nedvigimost/v-gorode-buy/">Р‘СѓР№</a><a
+                                            href="https://mvariant.ru/nedvigimost/v-galiche/">Р“Р°Р»РёС‡</a><a
+                                            href="https://mvariant.ru/nedvigimost/v-volgorechenske/">Р’РѕР»РіРѕСЂРµС‡РµРЅСЃРє</a>
                                 </div>
                             </div>
 
                         </li>
-                        <li><a href="https://mvariant.ru/nedvigimost/obmen/">Обмен</a></li>
-                        <li><a href="https://mvariant.ru/nedvigimost/arenda/">Аренда</a></li>
-                        <li><a href="https://mvariant.ru/nedvigimost/commerce/">Коммерческая</a></li>
+                        <li><a href="https://mvariant.ru/nedvigimost/obmen/">РћР±РјРµРЅ</a></li>
+                        <li><a href="https://mvariant.ru/nedvigimost/arenda/">РђСЂРµРЅРґР°</a></li>
+                        <li><a href="https://mvariant.ru/nedvigimost/commerce/">РљРѕРјРјРµСЂС‡РµСЃРєР°СЏ</a></li>
                     </ul>
                 </div>
-                <!-- Конец шаблона верхнего меню -->
+                <!-- РљРѕРЅРµС† С€Р°Р±Р»РѕРЅР° РІРµСЂС…РЅРµРіРѕ РјРµРЅСЋ -->
 
 
                 <div class="nav_close"><span></span><span></span></div>
@@ -288,8 +288,8 @@
                 <div class="alerts">
                     <!--a href="/nedvigimost/?filter=1&star_objects=1" class="stars">0</a-->
                 </div>
-                <a href="https://mvariant.ru/registration/?type=new" class="button reg red"><span></span>Подать
-                    объявление</a>
+                <a href="https://mvariant.ru/registration/?type=new" class="button reg red"><span></span>РџРѕРґР°С‚СЊ
+                    РѕР±СЉСЏРІР»РµРЅРёРµ</a>
             </div>
 
             <!--script>
@@ -300,10 +300,10 @@
 
             <script>
                 $(document).ready(function () {
-                    // другой регион
+                    // РґСЂСѓРіРѕР№ СЂРµРіРёРѕРЅ
                     $("#region_setted").click(function () {
 
-                        // вывести форму выбора региона
+                        // РІС‹РІРµСЃС‚Рё С„РѕСЂРјСѓ РІС‹Р±РѕСЂР° СЂРµРіРёРѕРЅР°
                         $.ajax({
                             type: "POST",
                             url: "/index.php?mod=regions&act=set_region_form&set=1",
@@ -328,105 +328,105 @@
     </section>
 
     <div class="nav_chain">
-        <div class="container"><a href="https://mvariant.ru/">Главная</a><span>Блог</span>
+        <div class="container"><a href="https://mvariant.ru/">Р“Р»Р°РІРЅР°СЏ</a><span>Р‘Р»РѕРі</span>
         </div>
     </div>
     <div class="module_mobile">
 
         <div class="page_info close_menu">
-            <h1>Полезная информация</h1>
+            <h1>РџРѕР»РµР·РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ</h1>
             <div class="info">
                 <div class="content">
 
                     <noindex>
                         <div class="info_keys">
-                            <span class="tag" data="обмен" rel="nofollow">обмен</span>
+                            <span class="tag" data="РѕР±РјРµРЅ" rel="nofollow">РѕР±РјРµРЅ</span>
 
-                            <span class="tag" data="без посредников" rel="nofollow">без посредников</span>
+                            <span class="tag" data="Р±РµР· РїРѕСЃСЂРµРґРЅРёРєРѕРІ" rel="nofollow">Р±РµР· РїРѕСЃСЂРµРґРЅРёРєРѕРІ</span>
 
-                            <span class="tag" data="оформление сделки" rel="nofollow">оформление сделки</span>
+                            <span class="tag" data="РѕС„РѕСЂРјР»РµРЅРёРµ СЃРґРµР»РєРё" rel="nofollow">РѕС„РѕСЂРјР»РµРЅРёРµ СЃРґРµР»РєРё</span>
 
-                            <span class="tag" data="договор мены" rel="nofollow">договор мены</span>
+                            <span class="tag" data="РґРѕРіРѕРІРѕСЂ РјРµРЅС‹" rel="nofollow">РґРѕРіРѕРІРѕСЂ РјРµРЅС‹</span>
 
-                            <span class="tag" data="договор купли-продажи" rel="nofollow">договор купли-продажи</span>
+                            <span class="tag" data="РґРѕРіРѕРІРѕСЂ РєСѓРїР»Рё-РїСЂРѕРґР°Р¶Рё" rel="nofollow">РґРѕРіРѕРІРѕСЂ РєСѓРїР»Рё-РїСЂРѕРґР°Р¶Рё</span>
 
-                            <span class="tag" data="обмен квартиры" rel="nofollow">обмен квартиры</span>
+                            <span class="tag" data="РѕР±РјРµРЅ РєРІР°СЂС‚РёСЂС‹" rel="nofollow">РѕР±РјРµРЅ РєРІР°СЂС‚РёСЂС‹</span>
 
-                            <span class="tag" data="размен" rel="nofollow">размен</span>
+                            <span class="tag" data="СЂР°Р·РјРµРЅ" rel="nofollow">СЂР°Р·РјРµРЅ</span>
 
-                            <span class="tag" data="доплата" rel="nofollow">доплата</span>
+                            <span class="tag" data="РґРѕРїР»Р°С‚Р°" rel="nofollow">РґРѕРїР»Р°С‚Р°</span>
 
-                            <span class="tag" data="комната" rel="nofollow">комната</span>
+                            <span class="tag" data="РєРѕРјРЅР°С‚Р°" rel="nofollow">РєРѕРјРЅР°С‚Р°</span>
 
-                            <span class="tag" data="материнский капитал" rel="nofollow">материнский капитал</span>
+                            <span class="tag" data="РјР°С‚РµСЂРёРЅСЃРєРёР№ РєР°РїРёС‚Р°Р»" rel="nofollow">РјР°С‚РµСЂРёРЅСЃРєРёР№ РєР°РїРёС‚Р°Р»</span>
 
-                            <span class="tag" data="ипотека" rel="nofollow">ипотека</span>
+                            <span class="tag" data="РёРїРѕС‚РµРєР°" rel="nofollow">РёРїРѕС‚РµРєР°</span>
 
-                            <span class="tag" data="долевая собственность" rel="nofollow">долевая собственность</span>
+                            <span class="tag" data="РґРѕР»РµРІР°СЏ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚СЊ" rel="nofollow">РґРѕР»РµРІР°СЏ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚СЊ</span>
 
-                            <span class="tag" data="осмотр квартиры" rel="nofollow">осмотр квартиры</span>
+                            <span class="tag" data="РѕСЃРјРѕС‚СЂ РєРІР°СЂС‚РёСЂС‹" rel="nofollow">РѕСЃРјРѕС‚СЂ РєРІР°СЂС‚РёСЂС‹</span>
 
-                            <span class="tag" data="юридическая чистота" rel="nofollow">юридическая чистота</span>
+                            <span class="tag" data="СЋСЂРёРґРёС‡РµСЃРєР°СЏ С‡РёСЃС‚РѕС‚Р°" rel="nofollow">СЋСЂРёРґРёС‡РµСЃРєР°СЏ С‡РёСЃС‚РѕС‚Р°</span>
 
-                            <span class="tag" data=" предварительный договор купли-продажи" rel="nofollow"> предварительный договор купли-продажи</span>
+                            <span class="tag" data=" РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅС‹Р№ РґРѕРіРѕРІРѕСЂ РєСѓРїР»Рё-РїСЂРѕРґР°Р¶Рё" rel="nofollow"> РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅС‹Р№ РґРѕРіРѕРІРѕСЂ РєСѓРїР»Рё-РїСЂРѕРґР°Р¶Рё</span>
 
-                            <span class="tag" data="запрос на обмен" rel="nofollow">запрос на обмен</span>
+                            <span class="tag" data="Р·Р°РїСЂРѕСЃ РЅР° РѕР±РјРµРЅ" rel="nofollow">Р·Р°РїСЂРѕСЃ РЅР° РѕР±РјРµРЅ</span>
 
-                            <span class="tag" data="покупка квартиры" rel="nofollow">покупка квартиры</span>
+                            <span class="tag" data="РїРѕРєСѓРїРєР° РєРІР°СЂС‚РёСЂС‹" rel="nofollow">РїРѕРєСѓРїРєР° РєРІР°СЂС‚РёСЂС‹</span>
 
-                            <span class="tag" data="продажа квартиры" rel="nofollow">продажа квартиры</span>
+                            <span class="tag" data="РїСЂРѕРґР°Р¶Р° РєРІР°СЂС‚РёСЂС‹" rel="nofollow">РїСЂРѕРґР°Р¶Р° РєРІР°СЂС‚РёСЂС‹</span>
 
-                            <span class="tag" data="новостройка" rel="nofollow">новостройка</span>
+                            <span class="tag" data="РЅРѕРІРѕСЃС‚СЂРѕР№РєР°" rel="nofollow">РЅРѕРІРѕСЃС‚СЂРѕР№РєР°</span>
 
-                            <span class="tag" data="вторичка" rel="nofollow">вторичка</span>
+                            <span class="tag" data="РІС‚РѕСЂРёС‡РєР°" rel="nofollow">РІС‚РѕСЂРёС‡РєР°</span>
 
-                            <span class="tag" data="сталинка" rel="nofollow">сталинка</span>
+                            <span class="tag" data="СЃС‚Р°Р»РёРЅРєР°" rel="nofollow">СЃС‚Р°Р»РёРЅРєР°</span>
 
-                            <span class="tag" data="брежневки" rel="nofollow">брежневки</span>
+                            <span class="tag" data="Р±СЂРµР¶РЅРµРІРєРё" rel="nofollow">Р±СЂРµР¶РЅРµРІРєРё</span>
 
-                            <span class="tag" data="хрущевки" rel="nofollow">хрущевки</span>
+                            <span class="tag" data="С…СЂСѓС‰РµРІРєРё" rel="nofollow">С…СЂСѓС‰РµРІРєРё</span>
 
-                            <span class="tag" data="аккредитив" rel="nofollow">аккредитив</span>
+                            <span class="tag" data="Р°РєРєСЂРµРґРёС‚РёРІ" rel="nofollow">Р°РєРєСЂРµРґРёС‚РёРІ</span>
 
-                            <span class="tag" data="налоги" rel="nofollow">налоги</span>
+                            <span class="tag" data="РЅР°Р»РѕРіРё" rel="nofollow">РЅР°Р»РѕРіРё</span>
 
-                            <span class="tag" data="предварительный договор купли-продажи" rel="nofollow">предварительный договор купли-продажи</span>
+                            <span class="tag" data="РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅС‹Р№ РґРѕРіРѕРІРѕСЂ РєСѓРїР»Рё-РїСЂРѕРґР°Р¶Рё" rel="nofollow">РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅС‹Р№ РґРѕРіРѕРІРѕСЂ РєСѓРїР»Рё-РїСЂРѕРґР°Р¶Рё</span>
 
-                            <span class="tag" data="кадастровая стоимость" rel="nofollow">кадастровая стоимость</span>
+                            <span class="tag" data="РєР°РґР°СЃС‚СЂРѕРІР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ" rel="nofollow">РєР°РґР°СЃС‚СЂРѕРІР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ</span>
 
-                            <span class="tag" data="льготная ипотека" rel="nofollow">льготная ипотека</span>
+                            <span class="tag" data="Р»СЊРіРѕС‚РЅР°СЏ РёРїРѕС‚РµРєР°" rel="nofollow">Р»СЊРіРѕС‚РЅР°СЏ РёРїРѕС‚РµРєР°</span>
 
-                            <span class="tag" data="военная ипотека" rel="nofollow">военная ипотека</span>
+                            <span class="tag" data="РІРѕРµРЅРЅР°СЏ РёРїРѕС‚РµРєР°" rel="nofollow">РІРѕРµРЅРЅР°СЏ РёРїРѕС‚РµРєР°</span>
 
-                            <span class="tag" data="налоговый вычет" rel="nofollow">налоговый вычет</span>
+                            <span class="tag" data="РЅР°Р»РѕРіРѕРІС‹Р№ РІС‹С‡РµС‚" rel="nofollow">РЅР°Р»РѕРіРѕРІС‹Р№ РІС‹С‡РµС‚</span>
 
-                            <span class="tag" data=" без посредников" rel="nofollow"> без посредников</span>
+                            <span class="tag" data=" Р±РµР· РїРѕСЃСЂРµРґРЅРёРєРѕРІ" rel="nofollow"> Р±РµР· РїРѕСЃСЂРµРґРЅРёРєРѕРІ</span>
 
-                            <span class="tag" data="оценка квартиры" rel="nofollow">оценка квартиры</span>
+                            <span class="tag" data="РѕС†РµРЅРєР° РєРІР°СЂС‚РёСЂС‹" rel="nofollow">РѕС†РµРЅРєР° РєРІР°СЂС‚РёСЂС‹</span>
 
-                            <span class="tag" data="перепланировка квартиры"
-                                  rel="nofollow">перепланировка квартиры</span>
+                            <span class="tag" data="РїРµСЂРµРїР»Р°РЅРёСЂРѕРІРєР° РєРІР°СЂС‚РёСЂС‹"
+                                  rel="nofollow">РїРµСЂРµРїР»Р°РЅРёСЂРѕРІРєР° РєРІР°СЂС‚РёСЂС‹</span>
 
-                            <span class="tag" data="ремонт" rel="nofollow">ремонт</span>
+                            <span class="tag" data="СЂРµРјРѕРЅС‚" rel="nofollow">СЂРµРјРѕРЅС‚</span>
 
                             <span class="tag" data="" rel="nofollow"></span>
 
-                            <span class="tag" data="рефинансирование ипотеки"
-                                  rel="nofollow">рефинансирование ипотеки</span>
+                            <span class="tag" data="СЂРµС„РёРЅР°РЅСЃРёСЂРѕРІР°РЅРёРµ РёРїРѕС‚РµРєРё"
+                                  rel="nofollow">СЂРµС„РёРЅР°РЅСЃРёСЂРѕРІР°РЅРёРµ РёРїРѕС‚РµРєРё</span>
 
-                            <span class="tag" data="страхование" rel="nofollow">страхование</span>
+                            <span class="tag" data="СЃС‚СЂР°С…РѕРІР°РЅРёРµ" rel="nofollow">СЃС‚СЂР°С…РѕРІР°РЅРёРµ</span>
 
-                            <span class="tag" data="эскроу" rel="nofollow">эскроу</span>
+                            <span class="tag" data="СЌСЃРєСЂРѕСѓ" rel="nofollow">СЌСЃРєСЂРѕСѓ</span>
 
-                            <span class="tag" data="рента" rel="nofollow">рента</span>
+                            <span class="tag" data="СЂРµРЅС‚Р°" rel="nofollow">СЂРµРЅС‚Р°</span>
 
-                            <span class="tag" data="без посредника" rel="nofollow">без посредника</span>
+                            <span class="tag" data="Р±РµР· РїРѕСЃСЂРµРґРЅРёРєР°" rel="nofollow">Р±РµР· РїРѕСЃСЂРµРґРЅРёРєР°</span>
 
-                            <span class="tag" data="кадастровая стоимость жилья" rel="nofollow">кадастровая стоимость жилья</span>
+                            <span class="tag" data="РєР°РґР°СЃС‚СЂРѕРІР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ Р¶РёР»СЊСЏ" rel="nofollow">РєР°РґР°СЃС‚СЂРѕРІР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ Р¶РёР»СЊСЏ</span>
 
-                            <span class="tag" data="ипотечные каникулы" rel="nofollow">ипотечные каникулы</span>
+                            <span class="tag" data="РёРїРѕС‚РµС‡РЅС‹Рµ РєР°РЅРёРєСѓР»С‹" rel="nofollow">РёРїРѕС‚РµС‡РЅС‹Рµ РєР°РЅРёРєСѓР»С‹</span>
 
-                            <span class="tag" data="реновация" rel="nofollow">реновация</span>
+                            <span class="tag" data="СЂРµРЅРѕРІР°С†РёСЏ" rel="nofollow">СЂРµРЅРѕРІР°С†РёСЏ</span>
 
                         </div>
 
@@ -438,217 +438,217 @@
 
                         <div class="block">
                             <div class="img"><img src="https://mvariant.ru/UserFiles/Image/articles/5596.jpg"
-                                                  alt="Что делать заемщику, если нет возможности платить ипотеку"></div>
+                                                  alt="Р§С‚Рѕ РґРµР»Р°С‚СЊ Р·Р°РµРјС‰РёРєСѓ, РµСЃР»Рё РЅРµС‚ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РїР»Р°С‚РёС‚СЊ РёРїРѕС‚РµРєСѓ"></div>
                             <div class="article_panel">
-                                <div class="title">Что делать заемщику, если нет возможности платить ипотеку</div>
-                                <div class="text">Что делать клиенту банка, которому нечем платить ипотеку? Разбираем
-                                    варианты выхода из ситуации.
+                                <div class="title">Р§С‚Рѕ РґРµР»Р°С‚СЊ Р·Р°РµРјС‰РёРєСѓ, РµСЃР»Рё РЅРµС‚ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РїР»Р°С‚РёС‚СЊ РёРїРѕС‚РµРєСѓ</div>
+                                <div class="text">Р§С‚Рѕ РґРµР»Р°С‚СЊ РєР»РёРµРЅС‚Сѓ Р±Р°РЅРєР°, РєРѕС‚РѕСЂРѕРјСѓ РЅРµС‡РµРј РїР»Р°С‚РёС‚СЊ РёРїРѕС‚РµРєСѓ? Р Р°Р·Р±РёСЂР°РµРј
+                                    РІР°СЂРёР°РЅС‚С‹ РІС‹С…РѕРґР° РёР· СЃРёС‚СѓР°С†РёРё.
                                 </div>
                             </div>
                             <div class="article_bottom">
 
                                 <a class="button contur"
-                                   href="https://mvariant.ru/info/chto-delat-zaemschiku-esli-net-vozmojnosti-platit-ipoteku/">Подробнее</a>
+                                   href="https://mvariant.ru/info/chto-delat-zaemschiku-esli-net-vozmojnosti-platit-ipoteku/">РџРѕРґСЂРѕР±РЅРµРµ</a>
                             </div>
                         </div>
 
                         <div class="block">
                             <div class="img"><img src="https://mvariant.ru/UserFiles/Image/articles/vznos%20karta.jpg"
-                                                  alt="Каким должен быть первый взнос по ипотеке"></div>
+                                                  alt="РљР°РєРёРј РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РїРµСЂРІС‹Р№ РІР·РЅРѕСЃ РїРѕ РёРїРѕС‚РµРєРµ"></div>
                             <div class="article_panel">
-                                <div class="title">Каким должен быть первый взнос по ипотеке</div>
-                                <div class="text">Первый взнос по ипотеке: размер, преимущества для кредитора и
-                                    заемщика, особые возможности.
+                                <div class="title">РљР°РєРёРј РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РїРµСЂРІС‹Р№ РІР·РЅРѕСЃ РїРѕ РёРїРѕС‚РµРєРµ</div>
+                                <div class="text">РџРµСЂРІС‹Р№ РІР·РЅРѕСЃ РїРѕ РёРїРѕС‚РµРєРµ: СЂР°Р·РјРµСЂ, РїСЂРµРёРјСѓС‰РµСЃС‚РІР° РґР»СЏ РєСЂРµРґРёС‚РѕСЂР° Рё
+                                    Р·Р°РµРјС‰РёРєР°, РѕСЃРѕР±С‹Рµ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё.
                                 </div>
                             </div>
                             <div class="article_bottom">
 
                                 <a class="button contur"
-                                   href="https://mvariant.ru/info/kakim-doljen-byit-pervyiy-vznos-po-ipoteke/">Подробнее</a>
+                                   href="https://mvariant.ru/info/kakim-doljen-byit-pervyiy-vznos-po-ipoteke/">РџРѕРґСЂРѕР±РЅРµРµ</a>
                             </div>
                         </div>
 
                         <div class="block">
                             <div class="img"><img src="https://mvariant.ru/UserFiles/Image/articles/nextcity1.jpg"
-                                                  alt="Как оформить ипотеку на квартиру в другом городе"></div>
+                                                  alt="РљР°Рє РѕС„РѕСЂРјРёС‚СЊ РёРїРѕС‚РµРєСѓ РЅР° РєРІР°СЂС‚РёСЂСѓ РІ РґСЂСѓРіРѕРј РіРѕСЂРѕРґРµ"></div>
                             <div class="article_panel">
-                                <div class="title">Как оформить ипотеку на квартиру в другом городе</div>
-                                <div class="text">Статья о требованиях, особенностях, этапах получения ипотеки на
-                                    квартиру в другом городе.
+                                <div class="title">РљР°Рє РѕС„РѕСЂРјРёС‚СЊ РёРїРѕС‚РµРєСѓ РЅР° РєРІР°СЂС‚РёСЂСѓ РІ РґСЂСѓРіРѕРј РіРѕСЂРѕРґРµ</div>
+                                <div class="text">РЎС‚Р°С‚СЊСЏ Рѕ С‚СЂРµР±РѕРІР°РЅРёСЏС…, РѕСЃРѕР±РµРЅРЅРѕСЃС‚СЏС…, СЌС‚Р°РїР°С… РїРѕР»СѓС‡РµРЅРёСЏ РёРїРѕС‚РµРєРё РЅР°
+                                    РєРІР°СЂС‚РёСЂСѓ РІ РґСЂСѓРіРѕРј РіРѕСЂРѕРґРµ.
                                 </div>
                             </div>
                             <div class="article_bottom">
 
                                 <a class="button contur"
-                                   href="https://mvariant.ru/info/kak-oformit-ipoteku-na-kvartiru-v-drugom-gorode/">Подробнее</a>
+                                   href="https://mvariant.ru/info/kak-oformit-ipoteku-na-kvartiru-v-drugom-gorode/">РџРѕРґСЂРѕР±РЅРµРµ</a>
                             </div>
                         </div>
 
                         <div class="block">
                             <div class="img"><img src="https://mvariant.ru/UserFiles/Image/articles/calc456.jpg"
-                                                  alt="Способы уменьшения ставки и платежа по ипотеке"></div>
+                                                  alt="РЎРїРѕСЃРѕР±С‹ СѓРјРµРЅСЊС€РµРЅРёСЏ СЃС‚Р°РІРєРё Рё РїР»Р°С‚РµР¶Р° РїРѕ РёРїРѕС‚РµРєРµ"></div>
                             <div class="article_panel">
-                                <div class="title">Способы уменьшения ставки и платежа по ипотеке</div>
-                                <div class="text">Как платить по ипотеке меньше? Статья о способах уменьшения
-                                    ежемесячной выплаты и процентной ставки.
+                                <div class="title">РЎРїРѕСЃРѕР±С‹ СѓРјРµРЅСЊС€РµРЅРёСЏ СЃС‚Р°РІРєРё Рё РїР»Р°С‚РµР¶Р° РїРѕ РёРїРѕС‚РµРєРµ</div>
+                                <div class="text">РљР°Рє РїР»Р°С‚РёС‚СЊ РїРѕ РёРїРѕС‚РµРєРµ РјРµРЅСЊС€Рµ? РЎС‚Р°С‚СЊСЏ Рѕ СЃРїРѕСЃРѕР±Р°С… СѓРјРµРЅСЊС€РµРЅРёСЏ
+                                    РµР¶РµРјРµСЃСЏС‡РЅРѕР№ РІС‹РїР»Р°С‚С‹ Рё РїСЂРѕС†РµРЅС‚РЅРѕР№ СЃС‚Р°РІРєРё.
                                 </div>
                             </div>
                             <div class="article_bottom">
 
                                 <a class="button contur"
-                                   href="https://mvariant.ru/info/sposobyi-umensheniya-stavki-i-plateja-po-ipoteke/">Подробнее</a>
+                                   href="https://mvariant.ru/info/sposobyi-umensheniya-stavki-i-plateja-po-ipoteke/">РџРѕРґСЂРѕР±РЅРµРµ</a>
                             </div>
                         </div>
 
                         <div class="block">
                             <div class="img"><img
                                         src="https://mvariant.ru/UserFiles/Image/articles/city-4302116_640.jpg"
-                                        alt="Что делать, если банки отказывают в ипотеке"></div>
+                                        alt="Р§С‚Рѕ РґРµР»Р°С‚СЊ, РµСЃР»Рё Р±Р°РЅРєРё РѕС‚РєР°Р·С‹РІР°СЋС‚ РІ РёРїРѕС‚РµРєРµ"></div>
                             <div class="article_panel">
-                                <div class="title">Что делать, если банки отказывают в ипотеке</div>
-                                <div class="text">Почему банки отказывают в выдаче ипотеки и что с этим делать?</div>
+                                <div class="title">Р§С‚Рѕ РґРµР»Р°С‚СЊ, РµСЃР»Рё Р±Р°РЅРєРё РѕС‚РєР°Р·С‹РІР°СЋС‚ РІ РёРїРѕС‚РµРєРµ</div>
+                                <div class="text">РџРѕС‡РµРјСѓ Р±Р°РЅРєРё РѕС‚РєР°Р·С‹РІР°СЋС‚ РІ РІС‹РґР°С‡Рµ РёРїРѕС‚РµРєРё Рё С‡С‚Рѕ СЃ СЌС‚РёРј РґРµР»Р°С‚СЊ?</div>
                             </div>
                             <div class="article_bottom">
 
                                 <a class="button contur"
-                                   href="https://mvariant.ru/info/chto-delat-esli-banki-otkazyivayut-v-ipoteke/">Подробнее</a>
+                                   href="https://mvariant.ru/info/chto-delat-esli-banki-otkazyivayut-v-ipoteke/">РџРѕРґСЂРѕР±РЅРµРµ</a>
                             </div>
                         </div>
 
                         <div class="block">
                             <div class="img"><img
                                         src="https://mvariant.ru/UserFiles/Image/articles/move-2481718_640.jpg"
-                                        alt="Особенности покупки квартиры в доме под реновацию"></div>
+                                        alt="РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё РїРѕРєСѓРїРєРё РєРІР°СЂС‚РёСЂС‹ РІ РґРѕРјРµ РїРѕРґ СЂРµРЅРѕРІР°С†РёСЋ"></div>
                             <div class="article_panel">
-                                <div class="title">Особенности покупки квартиры в доме под реновацию</div>
-                                <div class="text">Особенности, нюансы, плюсы и минусы покупки квартиры в доме под
-                                    реновацию.
+                                <div class="title">РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё РїРѕРєСѓРїРєРё РєРІР°СЂС‚РёСЂС‹ РІ РґРѕРјРµ РїРѕРґ СЂРµРЅРѕРІР°С†РёСЋ</div>
+                                <div class="text">РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё, РЅСЋР°РЅСЃС‹, РїР»СЋСЃС‹ Рё РјРёРЅСѓСЃС‹ РїРѕРєСѓРїРєРё РєРІР°СЂС‚РёСЂС‹ РІ РґРѕРјРµ РїРѕРґ
+                                    СЂРµРЅРѕРІР°С†РёСЋ.
                                 </div>
                             </div>
                             <div class="article_bottom">
 
                                 <a class="button contur"
-                                   href="https://mvariant.ru/info/osobennosti-pokupki-kvartiryi-v-dome-pod-renovatsiyu/">Подробнее</a>
+                                   href="https://mvariant.ru/info/osobennosti-pokupki-kvartiryi-v-dome-pod-renovatsiyu/">РџРѕРґСЂРѕР±РЅРµРµ</a>
                             </div>
                         </div>
 
                         <div class="block">
                             <div class="img"><img
                                         src="https://mvariant.ru/UserFiles/Image/articles/architect-1080589_640%20(1).jpg"
-                                        alt="Как взять ипотеку на строительство частного дома"></div>
+                                        alt="РљР°Рє РІР·СЏС‚СЊ РёРїРѕС‚РµРєСѓ РЅР° СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІРѕ С‡Р°СЃС‚РЅРѕРіРѕ РґРѕРјР°"></div>
                             <div class="article_panel">
-                                <div class="title">Как взять ипотеку на строительство частного дома</div>
-                                <div class="text">Ипотечное кредитование на строительство дома: условия, требования,
-                                    необходимые документы.
+                                <div class="title">РљР°Рє РІР·СЏС‚СЊ РёРїРѕС‚РµРєСѓ РЅР° СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІРѕ С‡Р°СЃС‚РЅРѕРіРѕ РґРѕРјР°</div>
+                                <div class="text">РРїРѕС‚РµС‡РЅРѕРµ РєСЂРµРґРёС‚РѕРІР°РЅРёРµ РЅР° СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІРѕ РґРѕРјР°: СѓСЃР»РѕРІРёСЏ, С‚СЂРµР±РѕРІР°РЅРёСЏ,
+                                    РЅРµРѕР±С…РѕРґРёРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹.
                                 </div>
                             </div>
                             <div class="article_bottom">
 
                                 <a class="button contur"
-                                   href="https://mvariant.ru/info/kak-vzyat-ipoteku-na-stroitelstvo-chastnogo-doma/">Подробнее</a>
+                                   href="https://mvariant.ru/info/kak-vzyat-ipoteku-na-stroitelstvo-chastnogo-doma/">РџРѕРґСЂРѕР±РЅРµРµ</a>
                             </div>
                         </div>
 
                         <div class="block">
                             <div class="img"><img src="https://mvariant.ru/UserFiles/Image/articles/2%20documents.jpg"
-                                                  alt="Условия и особенности получения ипотеки по двум документам">
+                                                  alt="РЈСЃР»РѕРІРёСЏ Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РїРѕР»СѓС‡РµРЅРёСЏ РёРїРѕС‚РµРєРё РїРѕ РґРІСѓРј РґРѕРєСѓРјРµРЅС‚Р°Рј">
                             </div>
                             <div class="article_panel">
-                                <div class="title">Условия и особенности получения ипотеки по двум документам</div>
-                                <div class="text">Как получить ипотеку по 2 документам? Подробно рассказываем в
-                                    статье.
+                                <div class="title">РЈСЃР»РѕРІРёСЏ Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РїРѕР»СѓС‡РµРЅРёСЏ РёРїРѕС‚РµРєРё РїРѕ РґРІСѓРј РґРѕРєСѓРјРµРЅС‚Р°Рј</div>
+                                <div class="text">РљР°Рє РїРѕР»СѓС‡РёС‚СЊ РёРїРѕС‚РµРєСѓ РїРѕ 2 РґРѕРєСѓРјРµРЅС‚Р°Рј? РџРѕРґСЂРѕР±РЅРѕ СЂР°СЃСЃРєР°Р·С‹РІР°РµРј РІ
+                                    СЃС‚Р°С‚СЊРµ.
                                 </div>
                             </div>
                             <div class="article_bottom">
 
                                 <a class="button contur"
-                                   href="https://mvariant.ru/info/usloviya-i-osobennosti-polucheniya-ipoteki-po-dvum-dokumentam/">Подробнее</a>
+                                   href="https://mvariant.ru/info/usloviya-i-osobennosti-polucheniya-ipoteki-po-dvum-dokumentam/">РџРѕРґСЂРѕР±РЅРµРµ</a>
                             </div>
                         </div>
 
                         <div class="block">
                             <div class="img"><img
                                         src="https://mvariant.ru/UserFiles/Image/articles/building-4789755_640.jpg"
-                                        alt="Выгодная ипотека от застройщика: плюсы и минусы предложения"></div>
+                                        alt="Р’С‹РіРѕРґРЅР°СЏ РёРїРѕС‚РµРєР° РѕС‚ Р·Р°СЃС‚СЂРѕР№С‰РёРєР°: РїР»СЋСЃС‹ Рё РјРёРЅСѓСЃС‹ РїСЂРµРґР»РѕР¶РµРЅРёСЏ"></div>
                             <div class="article_panel">
-                                <div class="title">Выгодная ипотека от застройщика: плюсы и минусы предложения</div>
-                                <div class="text">Почему покупка квартиры в ипотеку от застройщика — выгодное решение?
-                                    Читайте об этом в статье.
+                                <div class="title">Р’С‹РіРѕРґРЅР°СЏ РёРїРѕС‚РµРєР° РѕС‚ Р·Р°СЃС‚СЂРѕР№С‰РёРєР°: РїР»СЋСЃС‹ Рё РјРёРЅСѓСЃС‹ РїСЂРµРґР»РѕР¶РµРЅРёСЏ</div>
+                                <div class="text">РџРѕС‡РµРјСѓ РїРѕРєСѓРїРєР° РєРІР°СЂС‚РёСЂС‹ РІ РёРїРѕС‚РµРєСѓ РѕС‚ Р·Р°СЃС‚СЂРѕР№С‰РёРєР° вЂ” РІС‹РіРѕРґРЅРѕРµ СЂРµС€РµРЅРёРµ?
+                                    Р§РёС‚Р°Р№С‚Рµ РѕР± СЌС‚РѕРј РІ СЃС‚Р°С‚СЊРµ.
                                 </div>
                             </div>
                             <div class="article_bottom">
 
                                 <a class="button contur"
-                                   href="https://mvariant.ru/info/vyigodnaya-ipoteka-ot-zastroyschika-plyusyi-i-minusyi-predlojeniya/">Подробнее</a>
+                                   href="https://mvariant.ru/info/vyigodnaya-ipoteka-ot-zastroyschika-plyusyi-i-minusyi-predlojeniya/">РџРѕРґСЂРѕР±РЅРµРµ</a>
                             </div>
                         </div>
 
                         <div class="block">
                             <div class="img"><img
                                         src="https://mvariant.ru/UserFiles/Image/articles/house-167734_640.jpg"
-                                        alt="Что такое ипотечные каникулы и как их получить"></div>
+                                        alt="Р§С‚Рѕ С‚Р°РєРѕРµ РёРїРѕС‚РµС‡РЅС‹Рµ РєР°РЅРёРєСѓР»С‹ Рё РєР°Рє РёС… РїРѕР»СѓС‡РёС‚СЊ"></div>
                             <div class="article_panel">
-                                <div class="title">Что такое ипотечные каникулы и как их получить</div>
-                                <div class="text">Каковы условия ипотечных каникул и какие документы нужны для их
-                                    получения? Читайте в статье.
+                                <div class="title">Р§С‚Рѕ С‚Р°РєРѕРµ РёРїРѕС‚РµС‡РЅС‹Рµ РєР°РЅРёРєСѓР»С‹ Рё РєР°Рє РёС… РїРѕР»СѓС‡РёС‚СЊ</div>
+                                <div class="text">РљР°РєРѕРІС‹ СѓСЃР»РѕРІРёСЏ РёРїРѕС‚РµС‡РЅС‹С… РєР°РЅРёРєСѓР» Рё РєР°РєРёРµ РґРѕРєСѓРјРµРЅС‚С‹ РЅСѓР¶РЅС‹ РґР»СЏ РёС…
+                                    РїРѕР»СѓС‡РµРЅРёСЏ? Р§РёС‚Р°Р№С‚Рµ РІ СЃС‚Р°С‚СЊРµ.
                                 </div>
                             </div>
                             <div class="article_bottom">
 
                                 <a class="button contur"
-                                   href="https://mvariant.ru/info/chto-takoe-ipotechnyie-kanikulyi-i-kak-ih-poluchit/">Подробнее</a>
+                                   href="https://mvariant.ru/info/chto-takoe-ipotechnyie-kanikulyi-i-kak-ih-poluchit/">РџРѕРґСЂРѕР±РЅРµРµ</a>
                             </div>
                         </div>
 
                         <div class="block">
                             <div class="img"><img src="https://mvariant.ru/UserFiles/Image/articles/022aaa.jpg"
-                                                  alt="Как купить квартиру с обременением"></div>
+                                                  alt="РљР°Рє РєСѓРїРёС‚СЊ РєРІР°СЂС‚РёСЂСѓ СЃ РѕР±СЂРµРјРµРЅРµРЅРёРµРј"></div>
                             <div class="article_panel">
-                                <div class="title">Как купить квартиру с обременением</div>
-                                <div class="text">Что такое обременение квартиры, как купить такую квартиру и стоит ли
-                                    это делать.
+                                <div class="title">РљР°Рє РєСѓРїРёС‚СЊ РєРІР°СЂС‚РёСЂСѓ СЃ РѕР±СЂРµРјРµРЅРµРЅРёРµРј</div>
+                                <div class="text">Р§С‚Рѕ С‚Р°РєРѕРµ РѕР±СЂРµРјРµРЅРµРЅРёРµ РєРІР°СЂС‚РёСЂС‹, РєР°Рє РєСѓРїРёС‚СЊ С‚Р°РєСѓСЋ РєРІР°СЂС‚РёСЂСѓ Рё СЃС‚РѕРёС‚ Р»Рё
+                                    СЌС‚Рѕ РґРµР»Р°С‚СЊ.
                                 </div>
                             </div>
                             <div class="article_bottom">
 
                                 <a class="button contur"
-                                   href="https://mvariant.ru/info/stoit-li-riskovat-pokupaya-kvartiru-s-obremeneniem/">Подробнее</a>
+                                   href="https://mvariant.ru/info/stoit-li-riskovat-pokupaya-kvartiru-s-obremeneniem/">РџРѕРґСЂРѕР±РЅРµРµ</a>
                             </div>
                         </div>
 
                         <div class="block">
                             <div class="img"><img src="https://mvariant.ru/UserFiles/Image/articles/ggde.jpg"
-                                                  alt="Зачем нужна кадастровая стоимость недвижимости"></div>
+                                                  alt="Р—Р°С‡РµРј РЅСѓР¶РЅР° РєР°РґР°СЃС‚СЂРѕРІР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё"></div>
                             <div class="article_panel">
-                                <div class="title">Зачем нужна кадастровая стоимость недвижимости</div>
-                                <div class="text">Для чего нужна кадастровая стоимость недвижимости? Читайте в этой
-                                    статье.
+                                <div class="title">Р—Р°С‡РµРј РЅСѓР¶РЅР° РєР°РґР°СЃС‚СЂРѕРІР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё</div>
+                                <div class="text">Р”Р»СЏ С‡РµРіРѕ РЅСѓР¶РЅР° РєР°РґР°СЃС‚СЂРѕРІР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё? Р§РёС‚Р°Р№С‚Рµ РІ СЌС‚РѕР№
+                                    СЃС‚Р°С‚СЊРµ.
                                 </div>
                             </div>
                             <div class="article_bottom">
 
                                 <a class="button contur"
-                                   href="https://mvariant.ru/info/zachem-nujna-kadastrovaya-stoimost-nedvijimosti/">Подробнее</a>
+                                   href="https://mvariant.ru/info/zachem-nujna-kadastrovaya-stoimost-nedvijimosti/">РџРѕРґСЂРѕР±РЅРµРµ</a>
                             </div>
                         </div>
 
 
-                        <!--div class="more"><span>показать больше статей</span></div-->
+                        <!--div class="more"><span>РїРѕРєР°Р·Р°С‚СЊ Р±РѕР»СЊС€Рµ СЃС‚Р°С‚РµР№</span></div-->
                     </div>
-                    <div class="button contur more" id="moreArticles" rel="" onclick="show_more(this);">Еще статьи</div>
+                    <div class="button contur more" id="moreArticles" rel="" onclick="show_more(this);">Р•С‰Рµ СЃС‚Р°С‚СЊРё</div>
 
                     <div class="tasks_nav">
                         <div class="navigation_cont">
                             <div class="navigation">
                                 <a href="https://mvariant.ru/info/" class="link_page_left hide" rel="prev"
-                                   title="Перейти на предыдущую страницу">&lt;</a><span>1</span>
-                                <a href="https://mvariant.ru/info/page_2/" title="Џерейти на 2 страницу">2</a>
-                                <a href="https://mvariant.ru/info/page_3/" title="Џерейти на 3 страницу">3</a>
-                                <a href="https://mvariant.ru/info/page_4/" title="Џерейти на 4 страницу">4</a>
+                                   title="РџРµСЂРµР№С‚Рё РЅР° РїСЂРµРґС‹РґСѓС‰СѓСЋ СЃС‚СЂР°РЅРёС†Сѓ">&lt;</a><span>1</span>
+                                <a href="https://mvariant.ru/info/page_2/" title="РЏРµСЂРµР№С‚Рё РЅР° 2 СЃС‚СЂР°РЅРёС†Сѓ">2</a>
+                                <a href="https://mvariant.ru/info/page_3/" title="РЏРµСЂРµР№С‚Рё РЅР° 3 СЃС‚СЂР°РЅРёС†Сѓ">3</a>
+                                <a href="https://mvariant.ru/info/page_4/" title="РЏРµСЂРµР№С‚Рё РЅР° 4 СЃС‚СЂР°РЅРёС†Сѓ">4</a>
 
 
                                 <a href="https://mvariant.ru/info/page_2/" class="link_page_right " rel="next"
-                                   title="Џерейти на следующую страницу">&gt;</a>
+                                   title="РЏРµСЂРµР№С‚Рё РЅР° СЃР»РµРґСѓСЋС‰СѓСЋ СЃС‚СЂР°РЅРёС†Сѓ">&gt;</a>
 
 
                             </div>
@@ -704,7 +704,7 @@
                     if ($(this).hasClass('active')) {
                         $(this).addClass("active");
                     } else {
-                        //добавить в активные
+                        //РґРѕР±Р°РІРёС‚СЊ РІ Р°РєС‚РёРІРЅС‹Рµ
                         var tag = $(this).attr("data");
                         $(".info_choice").append("<div class='close_tag' data='" + tag + "'>" + tag + "<span><img loading='lazy' src='/images/picts/close_v_pict.png'></span></div>");
                     }
@@ -725,16 +725,16 @@
     </div>
 
 
-    <!-- Начало шаблона футера -->
+    <!-- РќР°С‡Р°Р»Рѕ С€Р°Р±Р»РѕРЅР° С„СѓС‚РµСЂР° -->
     <footer>
         <div class="container">
             <a id="topButton" href="https://mvariant.ru/info/#" style="display: none;"></a>
 
-            <!--Подключение плагина inputmask -->
+            <!--РџРѕРґРєР»СЋС‡РµРЅРёРµ РїР»Р°РіРёРЅР° inputmask -->
             <script src="https://mvariant.ru/js/inputmask.js" type="text/javascript"></script>
             <script src="https://mvariant.ru/js/jquery.inputmask.js" type="text/javascript"></script>
 
-            <!--Подключение плагина для селектов -->
+            <!--РџРѕРґРєР»СЋС‡РµРЅРёРµ РїР»Р°РіРёРЅР° РґР»СЏ СЃРµР»РµРєС‚РѕРІ -->
             <script src="https://mvariant.ru/js/bootstrap-select/bootstrap.js"></script>
             <script src="https://mvariant.ru/js/bootstrap-select/js/bootstrap-select.js"></script>
             <script src="https://mvariant.ru/js/bootstrap-select/js/i18n/defaults-ru_RU.js"></script>
@@ -825,44 +825,44 @@
                     <noindex>
                         <div class="phone">+7 (4852) 58-17-58</div>
                         <br>
-                        <div class="adress">г. Ярославль, ул. Республиканская, д. 3</div>
+                        <div class="adress">Рі. РЇСЂРѕСЃР»Р°РІР»СЊ, СѓР». Р РµСЃРїСѓР±Р»РёРєР°РЅСЃРєР°СЏ, Рґ. 3</div>
                     </noindex>
                     <div class="mail"><a href="mailto:info@mvariant.ru">info@mvariant.ru</a></div>
                 </div>
             </div>
             <div class="center">
                 <div class="block b1">
-                    <a href="https://mvariant.ru/fizlicam/">Частным лицам</a>
-                    <a href="https://mvariant.ru/agentstvam/">Агентствам</a>
-                    <a href="https://mvariant.ru/tarifs/">Тарифы</a>
-                    <a href="https://mvariant.ru/info/">Статьи</a>
+                    <a href="https://mvariant.ru/fizlicam/">Р§Р°СЃС‚РЅС‹Рј Р»РёС†Р°Рј</a>
+                    <a href="https://mvariant.ru/agentstvam/">РђРіРµРЅС‚СЃС‚РІР°Рј</a>
+                    <a href="https://mvariant.ru/tarifs/">РўР°СЂРёС„С‹</a>
+                    <a href="https://mvariant.ru/info/">РЎС‚Р°С‚СЊРё</a>
 
                 </div>
                 <div class="block b2">
-                    <a href="https://mvariant.ru/info/">База объектов</a>
+                    <a href="https://mvariant.ru/info/">Р‘Р°Р·Р° РѕР±СЉРµРєС‚РѕРІ</a>
                 </div>
                 <div class="block b3">
-                    <!--a href="#">Как стать партнёром?</a>
-				<a href="#">Реклама</a-->
-                    <a href="https://mvariant.ru/help/">Помощь (FAQ)</a>
-                    <a href="https://mvariant.ru/agreement/">Пользовательское соглашение</a>
-                    <a href="https://mvariant.ru/oferta/">Договор оферты</a>
-                    <a href="https://mvariant.ru/help/support-form/">Форма обратной связи</a>
+                    <!--a href="#">РљР°Рє СЃС‚Р°С‚СЊ РїР°СЂС‚РЅС‘СЂРѕРј?</a>
+				<a href="#">Р РµРєР»Р°РјР°</a-->
+                    <a href="https://mvariant.ru/help/">РџРѕРјРѕС‰СЊ (FAQ)</a>
+                    <a href="https://mvariant.ru/agreement/">РџРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРѕРµ СЃРѕРіР»Р°С€РµРЅРёРµ</a>
+                    <a href="https://mvariant.ru/oferta/">Р”РѕРіРѕРІРѕСЂ РѕС„РµСЂС‚С‹</a>
+                    <a href="https://mvariant.ru/help/support-form/">Р¤РѕСЂРјР° РѕР±СЂР°С‚РЅРѕР№ СЃРІСЏР·Рё</a>
                 </div>
             </div>
             <div class="right">
-                Мы в соцсетях:
+                РњС‹ РІ СЃРѕС†СЃРµС‚СЏС…:
                 <noindex>
                     <a href="https://vk.com/mvariant_ru" target="_blank" rel="nofollow"><img loading="lazy"
                                                                                              src="https://mvariant.ru/images/vk.png"
-                                                                                             alt="Вконтакте"></a>
-                    <!--a href="//www.facebook.com/Сервис-подбора-недвижимости-Мой-вариант-163432920986117/" target="_blank" rel="nofollow"><img src="/images/fb.png" alt="Facebook"></a-->
+                                                                                             alt="Р’РєРѕРЅС‚Р°РєС‚Рµ"></a>
+                    <!--a href="//www.facebook.com/РЎРµСЂРІРёСЃ-РїРѕРґР±РѕСЂР°-РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё-РњРѕР№-РІР°СЂРёР°РЅС‚-163432920986117/" target="_blank" rel="nofollow"><img src="/images/fb.png" alt="Facebook"></a-->
                 </noindex>
 
-                <div class="privacy" style="font-size:12px; color:#717171;">Используя интернет ресурс Mvariant.ru, Вы
-                    соглашаетесь на обработку Ваших персональных данных (см. <a href="https://mvariant.ru/privacy/"
-                                                                                target="_blank">Политика
-                        Конфиденциальности</a>), в противном случае Вы должны прекратить использование ресурса.
+                <div class="privacy" style="font-size:12px; color:#717171;">РСЃРїРѕР»СЊР·СѓСЏ РёРЅС‚РµСЂРЅРµС‚ СЂРµСЃСѓСЂСЃ Mvariant.ru, Р’С‹
+                    СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ Р’Р°С€РёС… РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С… (СЃРј. <a href="https://mvariant.ru/privacy/"
+                                                                                target="_blank">РџРѕР»РёС‚РёРєР°
+                        РљРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a>), РІ РїСЂРѕС‚РёРІРЅРѕРј СЃР»СѓС‡Р°Рµ Р’С‹ РґРѕР»Р¶РЅС‹ РїСЂРµРєСЂР°С‚РёС‚СЊ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ СЂРµСЃСѓСЂСЃР°.
                 </div>
 
             </div>
@@ -898,7 +898,7 @@
 
         </div>
         <div class="copyright">
-            © 2022 Mvariant.ru<br></div>
+            В© 2022 Mvariant.ru<br></div>
     </footer>
     <div id="preloader">
         <div class="close"><span class="glyphicon glyphicon-remove"></span></div>
@@ -912,13 +912,13 @@
 
     </script>
 
-    <!-- Конец шаблона футера -->
+    <!-- РљРѕРЅРµС† С€Р°Р±Р»РѕРЅР° С„СѓС‚РµСЂР° -->
 </div>
 
 
 </body>
 </html>
 <!--
-Щелчок показать больше сломался
+Р©РµР»С‡РѕРє РїРѕРєР°Р·Р°С‚СЊ Р±РѕР»СЊС€Рµ СЃР»РѕРјР°Р»СЃСЏ
 
 -->
