@@ -300,27 +300,29 @@
 	</script-->
 
             <script>
-                // другой регион
-                $("#region_setted").click(function () {
+                $(document).ready(function () {
+                    // другой регион
+                    $("#region_setted").click(function () {
 
-                    // вывести форму выбора региона
-                    $.ajax({
-                        type: "POST",
-                        url: "/index.php?mod=regions&act=set_region_form&set=1",
-                        beforeSend: function (xhr) {
-                            $("#preloader").show();
-                        },
-                        success: function (data) {
-                            //	alert(data);
+                        // вывести форму выбора региона
+                        $.ajax({
+                            type: "POST",
+                            url: "/index.php?mod=regions&act=set_region_form&set=1",
+                            beforeSend: function (xhr) {
+                                $("#preloader").show();
+                            },
+                            success: function (data) {
+                                //	alert(data);
 
-                            $("body").append(data);
-                            $("#preloader").hide();
-                        },
-                        error: function (jqXHR, textStatus) {
+                                $("body").append(data);
+                                $("#preloader").hide();
+                            },
+                            error: function (jqXHR, textStatus) {
 
-                        }
+                            }
+                        });
+
                     });
-
                 });
             </script>
         </div>
@@ -659,48 +661,53 @@
         </div>
 
         <script>
-            $(document).ready(function () {
-                function show_more(el) {
-
-                    //alert("show_more");
-                    //var count = $(el).attr("rel");
-                    var begin = $(".info_blocks .block").length;
-
-                    $.ajax({
-                        type: "POST",
-                        url: "/index.php?mod=articles&act=show_more&begin=" + begin,
-                        beforeSend: function (xhr) {
-                            $("#preloader").show();
-                        },
-                        success: function (data) {
-                            $("#preloader").hide();
-                            //$("body").append(data);
-
-                            if (data.indexOf('!--Error--') != -1) {
-                                //alert(data);
-                                $("body").append(data);
-                            } else {
-                                $(".info_blocks").append(data);
-                                //$(el).attr("rel", count + );
-                            }
-                        },
-                        error: function (jqXHR, textStatus) {
-                        }
-                    });
-
+            function items_list() {
+                var tags = $(".info_choice .close_tag");
+                var url = [];
+                for (var i = 0; i < tags.length; i++) {
+                    url.push("tag[]=" + tags.eq(i).attr("data"));
                 }
+                str = "?" + url.join("&");
+                return str;
+            }
 
+            function show_more(el) {
+                //alert("show_more");
+                //var count = $(el).attr("rel");
+                var begin = $(".info_blocks .block").length;
+
+                $.ajax({
+                    type: "POST",
+                    url: "/index.php?mod=articles&act=show_more&begin=" + begin,
+                    beforeSend: function (xhr) {
+                        $("#preloader").show();
+                    },
+                    success: function (data) {
+                        $("#preloader").hide();
+                        //$("body").append(data);
+
+                        if (data.indexOf('!--Error--') != -1) {
+                            //alert(data);
+                            $("body").append(data);
+                        } else {
+                            $(".info_blocks").append(data);
+                            //$(el).attr("rel", count + );
+                        }
+                    },
+                    error: function (jqXHR, textStatus) {
+                    }
+                });
+
+            }
+
+            $(document).ready(function () {
                 $(".info_keys .tag").click(function () {
                     if ($(this).hasClass('active')) {
                         $(this).addClass("active");
                     } else {
                         //добавить в активные
                         var tag = $(this).attr("data");
-                        $(".info_choice").append("<div class='close_tag' data='" + tag + "'>" + tag + "<span><img loading="
-                        lazy
-                        " src='/images/picts/close_v_pict.png'></span></div>"
-                    )
-                        ;
+                        $(".info_choice").append("<div class='close_tag' data='" + tag + "'>" + tag + "<span><img loading='lazy' src='/images/picts/close_v_pict.png'></span></div>");
                     }
 
                     var url = items_list();
@@ -713,19 +720,8 @@
                     var url = items_list();
                     window.location = "/info/" + url;
                 });
-
-                function items_list() {
-                    var tags = $(".info_choice .close_tag");
-                    var url = [];
-                    for (var i = 0; i < tags.length; i++) {
-                        url.push("tag[]=" + tags.eq(i).attr("data"));
-                    }
-                    str = "?" + url.join("&");
-
-                    return str;
-
-                }
             });
+
         </script>
     </div>
 
@@ -923,3 +919,7 @@
 
 </body>
 </html>
+<!--
+Щелчок показать больше сломался
+
+-->
