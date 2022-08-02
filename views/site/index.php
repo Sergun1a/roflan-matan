@@ -29,7 +29,7 @@
     <link href="https://mvariant.ru/css/common.css?v=69" rel="stylesheet" type="text/css">
     <link href="https://mvariant.ru/css/inner.css?v=66" rel="stylesheet" type="text/css">
     <link href="https://mvariant.ru/css/catalog.css?v=69" rel="stylesheet" type="text/css">
-    <link href="Полезные статьи о недвижимости - Мой вариант_filesss" rel="stylesheet">
+    <link href="Полезные статьи о недвижимости - Мой вариант_filesss" type="text/html">
     <link href="https://mvariant.ru/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="https://mvariant.ru/js/bootstrap-select/bootstrap1.css">
     <link rel="stylesheet" href="https://mvariant.ru/js/bootstrap-select/css/bootstrap-select.css">
@@ -699,105 +699,113 @@
         });
 
     </script>
-    <div id="footer">
-        <!--<script>
-            $("#footer").load("../views/site/static/footer.html");
-        </script>-->
-        <!-- Начало шаблона футера -->
+</div>
 
+<div id="footer">
+    <!--<script>
+        $("#footer").load("../views/site/static/footer.html");
+    </script>-->
+    <footer>
         <div class="container">
-            <a id="topButton" href="https://mvariant.ru/info/#" style="display: none;"></a>
+            <a id="topButton" href="#" style="display: inline;"></a>
 
             <!--Подключение плагина inputmask -->
-            <script src="https://mvariant.ru/js/inputmask.js" type="text/javascript"></script>
-            <script src="https://mvariant.ru/js/jquery.inputmask.js" type="text/javascript"></script>
+            <script src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/inputmask.js"
+                    type="text/javascript"></script>
+            <script src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/jquery.inputmask.js"
+                    type="text/javascript"></script>
 
             <!--Подключение плагина для селектов -->
-            <script src="https://mvariant.ru/js/bootstrap-select/bootstrap.js"></script>
-            <script src="https://mvariant.ru/js/bootstrap-select/js/bootstrap-select.js"></script>
-            <script src="https://mvariant.ru/js/bootstrap-select/js/i18n/defaults-ru_RU.js"></script>
+            <script src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/bootstrap.js"></script>
+            <script src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/bootstrap-select.js"></script>
+            <script src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/defaults-ru_RU.js"></script>
 
-            <script type="text/javascript" src="https://mvariant.ru/js/fancybox/jquery.fancybox.js?v=2.1.5"></script>
-            <link rel="stylesheet" type="text/css" href="https://mvariant.ru/js/fancybox/jquery.fancybox.css?v=2.1.5"
+            <script type="text/javascript"
+                    src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/jquery.fancybox.js"></script>
+            <link rel="stylesheet" type="text/css"
+                  href="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/jquery.fancybox.css"
                   media="screen">
 
-            <script type="text/javascript" src="https://mvariant.ru/js/obmen/main.js"></script>
-            <script type="text/javascript" src="https://mvariant.ru/scripts/jquery.form.js"></script>
-            <script type="text/javascript" src="https://mvariant.ru/js/obmen/common_func.js"></script>
-            <script type="text/javascript" src="https://mvariant.ru/js/obmen/validation.js"></script>
+            <script type="text/javascript"
+                    src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/main.js"></script>
+            <script type="text/javascript"
+                    src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/jquery.form.js"></script>
+            <script type="text/javascript"
+                    src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/common_func.js"></script>
+            <script type="text/javascript"
+                    src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/validation.js"></script>
 
             <script>
-                $(document).ready(function () {
-                    $("a.modal_img").fancybox({
-                        'padding': 0,
-                        'autoScale': false,
-                        'transitionIn': 'none',
-                        'transitionOut': 'none',
-                        'title': this.title,
-                        'href': this.href
-                    });
+
+                $("a.modal_img").fancybox({
+                    'padding': 0,
+                    'autoScale': false,
+                    'transitionIn': 'none',
+                    'transitionOut': 'none',
+                    'title': this.title,
+                    'href': this.href
+                });
 
 
-                    $('[data-fancybox=videos]').fancybox({
-                        youtube: {
-                            controls: 1,
-                            showinfo: 0
-                        },
-                        vimeo: {
-                            color: 'f00'
-                        }
-                    });
+                $('[data-fancybox=videos]').fancybox({
+                    youtube: {
+                        controls: 1,
+                        showinfo: 0
+                    },
+                    vimeo: {
+                        color: 'f00'
+                    }
+                });
 
-                    function screenHeight() {
-                        return $.browser.opera ? window.innerHeight : $(window).height();
+                function screenHeight() {
+                    return $.browser.opera ? window.innerHeight : $(window).height();
+                }
+
+                function screenWidth() {
+                    return $.browser.opera ? window.innerWidth : $(window).width();
+                }
+
+                $("#topButton").hide();
+                $(window).scroll(function () {
+                    if ($(window).scrollTop() > 300) {
+                        $("#topButton").show();
+                        $(".nav_mobile").show();
+
+
+                    } else {
+                        $("#topButton").hide();
+                        $(".nav_mobile").hide();
+
+                    }
+                    if ($(window).scrollTop() > 100 && $(window).width() >= 1000) {
+                        $("section.header").addClass("scroll");
+                    } else {
+                        $("section.header").removeClass("scroll");
                     }
 
-                    function screenWidth() {
-                        return $.browser.opera ? window.innerWidth : $(window).width();
+                });
+                $("#topButton").click(function () {
+                    //alert("top");
+                    $("body").animate({scrollTop: 0}, '1000');
+                    $("html").animate({scrollTop: 0}, '1000');
+                    return false;
+                });
+
+                $(".nav_mobile").click(function () {
+                    if ($(".top_mobile").hasClass("show")) {
+                        $(".top_mobile").removeClass("show");
+                        $(".module_mobile").css("padding-top", "0px");
+                    } else {
+                        $(".top_mobile").addClass("show");
+                        $(".module_mobile").css("padding-top", $(".top_mobile").height() + "px");
                     }
-
-                    $("#topButton").hide();
-                    $(window).scroll(function () {
-                        if ($(window).scrollTop() > 300) {
-                            $("#topButton").show();
-                            $(".nav_mobile").show();
-
-
-                        } else {
-                            $("#topButton").hide();
-                            $(".nav_mobile").hide();
-
-                        }
-                        if ($(window).scrollTop() > 100 && $(window).width() >= 1000) {
-                            $("section.header").addClass("scroll");
-                        } else {
-                            $("section.header").removeClass("scroll");
-                        }
-
-                    });
-                    $("#topButton").click(function () {
-                        //alert("top");
-                        $("body").animate({scrollTop: 0}, '1000');
-                        $("html").animate({scrollTop: 0}, '1000');
-                        return false;
-                    });
-
-                    $(".nav_mobile").click(function () {
-                        if ($(".top_mobile").hasClass("show")) {
-                            $(".top_mobile").removeClass("show");
-                            $(".module_mobile").css("padding-top", "0px");
-                        } else {
-                            $(".top_mobile").addClass("show");
-                            $(".module_mobile").css("padding-top", $(".top_mobile").height() + "px");
-                        }
-                    });
                 });
             </script>
 
 
             <div class="left">
-                <div class="logo_bottom"><a href="https://mvariant.ru/"><img loading="lazy"
-                                                                             src="https://mvariant.ru/images/logo_bottom.png"></a>
+                <div class="logo_bottom"><a href="https://mvariant.ru/"><img
+                                src="p2/logo_bottom.png"></a>
                 </div>
                 <div class="bottom_contacts">
                     <noindex>
@@ -817,11 +825,11 @@
 
                 </div>
                 <div class="block b2">
-                    <a href="https://mvariant.ru/info/">База объектов</a>
+                    <a href="">База объектов</a>
                 </div>
                 <div class="block b3">
                     <!--a href="#">Как стать партнёром?</a>
-                <a href="#">Реклама</a-->
+				<a href="#">Реклама</a-->
                     <a href="https://mvariant.ru/help/">Помощь (FAQ)</a>
                     <a href="https://mvariant.ru/agreement/">Пользовательское соглашение</a>
                     <a href="https://mvariant.ru/oferta/">Договор оферты</a>
@@ -831,9 +839,9 @@
             <div class="right">
                 Мы в соцсетях:
                 <noindex>
-                    <a href="https://vk.com/mvariant_ru" target="_blank" rel="nofollow"><img loading="lazy"
-                                                                                             src="https://mvariant.ru/images/vk.png"
-                                                                                             alt="Вконтакте"></a>
+                    <a href="https://vk.com/mvariant_ru" target="_blank" rel="nofollow"><img
+                                src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/vk.png"
+                                alt="Вконтакте"></a>
                     <!--a href="//www.facebook.com/Сервис-подбора-недвижимости-Мой-вариант-163432920986117/" target="_blank" rel="nofollow"><img src="/images/fb.png" alt="Facebook"></a-->
                 </noindex>
 
@@ -848,22 +856,20 @@
 
             <!-- Yandex.Metrika counter -->
             <script type="text/javascript">
-                $(document).ready(function () {
-                    (function (m, e, t, r, i, k, a) {
-                        m[i] = m[i] || function () {
-                            (m[i].a = m[i].a || []).push(arguments)
-                        };
-                        m[i].l = 1 * new Date();
-                        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-                    })
-                    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+                (function (m, e, t, r, i, k, a) {
+                    m[i] = m[i] || function () {
+                        (m[i].a = m[i].a || []).push(arguments)
+                    };
+                    m[i].l = 1 * new Date();
+                    k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+                })
+                (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-                    ym(47248734, "init", {
-                        clickmap: true,
-                        trackLinks: true,
-                        accurateTrackBounce: true,
-                        webvisor: true
-                    });
+                ym(47248734, "init", {
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor: true
                 });
             </script>
             <noscript>
@@ -876,20 +882,19 @@
         </div>
         <div class="copyright">
             © 2022 Mvariant.ru<br></div>
-
-        <div id="preloader">
-            <div class="close"><span class="glyphicon glyphicon-remove"></span></div>
-            <div class="icon"></div>
-        </div>
-
-        <script>
-            $("#preloader .close").click(function () {
-                $("#preloader").hide();
-            });
-        </script>
-
-        <!-- Конец шаблона футера -->
+    </footer>
+    <div id="preloader">
+        <div class="close"><span class="glyphicon glyphicon-remove"></span></div>
+        <div class="icon"></div>
     </div>
+
+    <script>
+        $("#preloader .close").click(function () {
+            $("#preloader").hide();
+        });
+
+    </script>
+    <!-- Конец шаблона футера -->
 </div>
 
 
