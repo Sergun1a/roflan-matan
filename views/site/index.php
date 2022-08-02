@@ -30,7 +30,11 @@
     </script>
     <meta name="viewport" content="width=1024">
 
-    <link href="https://mvariant.ru/css/common.css?v=69" rel="stylesheet" type="text/css">
+    <script>
+        $(document).ready(function () {
+            $("head").append('<link href="https://mvariant.ru/css/common.css?v=69" rel="stylesheet" type="text/css">')
+        });
+    </script>
     <link href="https://mvariant.ru/css/inner.css?v=66" rel="stylesheet" type="text/css">
     <link href="https://mvariant.ru/css/catalog.css?v=69" rel="stylesheet" type="text/css">
 
