@@ -1,5 +1,5 @@
-/* обнуление стилей */
-html, body, h1, h2, h3, h4, h5, h6, p, em, strong, abbr, acronym, blockquote, q, cite, ins, 
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+html, body, h1, h2, h3, h4, h5, h6, p, em, strong, abbr, acronym, blockquote, q, cite, ins,
 del, dfn, a, div, span, pre, hr, address, br, b, i, sub, sup, big, small, tt, table, tr, td, 
 caption, thead, tbody, tfoot, col, colgroup, form, input, label, textarea, button, fieldset, 
 legend, select, option, optiongroup, ul, ol, li, dl, dt, dd, code, var, kdb, samp, img, object, 
@@ -52,7 +52,7 @@ div.container { width:1220px; min-width:307px; margin:0 auto; }
 .status.id5   { display:inline-block; vertical-align:top; background:#E2DD41; color:#212121; font-size:11px; line-height:15px; height:16px; border-radius:2px; padding:0 10px; margin:0 10px; }
 .status.id6   { display:inline-block; vertical-align:top; background:#A8E7FF; color:#212121; font-size:11px; line-height:15px; height:16px; border-radius:2px; padding:0 10px; margin:0 10px; }
 
-/* Всплывающая подсказка 20px */
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 20px */
 .info_caption { display:inline-block; width:20px; height:20px;  line-height:20px; text-align:center; font-size:18px; color:#cacaca; border:solid 1px #cacaca; border-radius:50%; position:relative; cursor:default; }
 .info_caption.alerts {  color:red; border:solid 1px red; }
 .info_caption .hover { /*display:none;*/ display:block !important; z-index:100; opacity:0; width:1px; height:1px; overflow:hidden; padding:20px 10px 0px 10px; font-size:0px; line-height:0px; text-align:left; color:#727272; background:#fff; border:solid 1px #cacaca; position:absolute; top:0px; left:0px; border-top-left-radius:10px; margin-top:-1px; margin-left:-1px; 
@@ -64,7 +64,7 @@ div.container { width:1220px; min-width:307px; margin:0 auto; }
 	-webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; transition: all 0.3s linear; }
 .info_caption:hover .hover { display:block !important; opacity:1; width:250px !important; height:auto !important; font-size:12px; line-height:16px; padding:28px 10px 15px 10px; }
 
-/*стили шапки*/
+/*пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ*/
 
 section.header.crm { background:none; padding:0; position:relative; height:50px; }
 .header.crm .logo { margin-top:5px; }
@@ -181,7 +181,7 @@ section.header div.container { padding:0px; position:relative; }
 
 
 
-/*цепочка навигации*/
+/*пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ*/
 .nav_chain { border:solis 1px; background-color:#77CFFF; height:40px; width:100%; }
 .nav_chain .container {  }
 .nav_chain a { display:inline-block; padding:10px 15px 0 8px; color:#fff; font-size:12px; background:url(/images/picts/nav_pict.png) 100% 15px no-repeat; text-decoration:none; }
@@ -193,8 +193,8 @@ section.header div.container { padding:0px; position:relative; }
 .confirm .container h3 { color:#212121; font-size:24px; font-weight:600; margin-bottom:18px; text-align:left; }
 .confirm .container p { color:#212121; font-size:18px; font-weight:400; margin-bottom:18px; text-align:left; }
 
-/* карточка объекта */
-/* всплывающая форма с описанием объекта */
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 #object_page {}
 #object_page .container { position:relative; width:1220px; margin:auto; padding:50px 0px 50px 0px; background:#fff; }
 #object_page .controls_panel { position:absolute; top:10px; right:50px; }
@@ -345,7 +345,7 @@ section.header div.container { padding:0px; position:relative; }
 #object_page .button.accept { margin-top:30px; background-color:#FFF; border:solid 1px #00D623; color:#00D623; width:170px; height:40px; line-height:40px; }
 #object_page .button.reject { margin-top:30px; background-color:#FFF; border:solid 1px #FF5A21; color:#FF5A21; width:170px; height:40px; line-height:40px; }
 
-/*запрос в карточке объекта*/
+/*пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ*/
 #object_page .connect {  margin:10px 20px 10px 0; min-width:1020px; /*width:100%;*/ display:inline-block; vertical-align:top; border-radius:3px; border:solid 1px #dadada; border-spacing:7px;  position:relative; }
 #object_page .connect .inner { display:inline-block; vertical-align:top; min-width:725px; padding:15px; margin:6px; border-radius:2px; background-color:#f1f1f1; }
 #object_page .connect .info_connect { display:none; }
@@ -376,7 +376,7 @@ section.header div.container { padding:0px; position:relative; }
 .info_block_obmen .right .button.red { border-radius: 3px; width: 240px; height: 40px; line-height: 20px; color: #fff; background: url(/images/first/btn_arr.png) #ff9300 240px 22px no-repeat; padding: 10px 20px; text-align: left; margin: 10px 0 0px 0; }
 .info_block_obmen .right .button.red:hover { background: url(/images/first/btn_arr.png) #E58200 240px 22px no-repeat; }
 
-/*Всплывающие формы*/
+/*пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ*/
 .form_up { z-index:10000; position:absolute; left:0px; top:0px; width:100%; height:100%; background-color: rgba(0, 0, 0, 0.5); }
 .form_up .container { position:relative; width:600px; /*height:320px;*/ margin:auto; background:#fff; }
 .form_up form { text-align:center; padding:3px; vertical-align:top; }
@@ -415,14 +415,14 @@ section.header div.container { padding:0px; position:relative; }
 .formHide   form  span { display:inline-block; position:relative; }
 .formHide  form span em { display:block; position:absolute; width:368px; top:40px; left:0px; font-size:11px; line-height:14px; color:#D3220A; text-align:center; }
 
-/* Окно авторизации */
+/* пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 .form_up.login_form .container { width:400px; padding:50px 0 30px 0; }
 .form_up.login_form input.text { width:290px; height:50px; line-height:50px; }
 .form_up.login_form .button#loginButton1 { width:290px; height:50px; line-height:50px; margin-top: 15px; }
 .form_up.login_form label {  display:inline-block; width:290px; font-weight:400; /*text-align:left;*/ }
 
 
-/* всплывающее окно с картой */
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
 .form_up.map .container  { width:800px; }
 .form_up.map .map_object { width:800px; height:600px; }
 .form_up.map .close.type1 { background:#fff; color:#212121; font-size:20px; width:20px; height:20px; padding:5px; opacity:0.75; border-radius:2px; }
@@ -434,7 +434,7 @@ section.header div.container { padding:0px; position:relative; }
 .form_up.map.draw .container  .buttons { padding:20px 0 0 0; text-align:center; }
 .form_up.map.draw .container  .buttons .button { width:200px; height:35px; line-height:35px; margin:20px 5px; }
 
-/* всплывающее окно с картой */
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
 .form_up #message { width:540px; padding:30px; text-align:center; }
 .form_up #message .button { display:inline-block; width:230px; height:50px; line-height:50px; }
 
@@ -532,7 +532,7 @@ font-weight: 400; text-transform:uppercase;  }
 .form_up.comment_obj .container { padding:50px; width:800px; text-align:center; }
 .form_up.comment_obj textarea { width:800px; height:150px; text-align:left; font-size:14px; }
 
-/* всплывающая форма отправки сообщения */
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 .form_up.message { z-index:10000; position:absolute; left:0px; top:0px; width:100%; height:100%; background-color: rgba(0, 0, 0, 0.5); }
 .form_up.message .container { position:relative; width:600px; margin:auto; background:#fff; padding:30px 50px; }
 .form_up.message h2 { color:#2da4e5; font-size:30px; font-family:'Open Sans Condensed', sans-serif; font-weight:700; }
@@ -562,7 +562,7 @@ font-weight: 400; text-transform:uppercase;  }
 .form_up.message .controls label input { display:inline; font-size:16px; height:16px; width:26px; line-height:16px;  }
 .form_up.message  .dropzone { border:solid 1px #fff; padding:0; border-radius:3px; }
 
-/* попап с инфо о пользователе */
+/* пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 .form_up.context_user {  }
 .form_up.context_user .container { padding:30px; width:730px; text-align:center; }
 .form_up.context_user .left_side {  display:inline-block; vertical-align:top; text-align:left; }
@@ -622,7 +622,7 @@ font-weight: 400; text-transform:uppercase;  }
 .icon_email { display:inline-block; vertical-align:top; width:20px; height:18px; background:url(/images/picts/user_stats.png) 0 -81px no-repeat; }
 .icon_site { display:inline-block; vertical-align:top; width:20px; height:18px; background:url(/images/picts/user_stats.png) 0 -104px no-repeat; }
 
-/* попап с инфо о пользователе */
+/* пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 .form_up.context_company {  }
 .form_up.context_company .container { padding:30px; width:730px; text-align:center; }
 .form_up.context_company .left_side {  display:inline-block; vertical-align:top; text-align:left; width:250px; }
@@ -642,7 +642,7 @@ font-weight: 400; text-transform:uppercase;  }
 .form_up.context_company .stats div { line-height:18px; margin:2px 0; }
 .form_up.context_company  h3 { text-align:left; }
 
-/*запрос в карточке запроса*/
+/*пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ*/
 .form_up.connect_detail .container { padding:30px; }
 .form_up.connect_detail  h1 { color:#0288d1; padding-bottom:5px; font-family:'Open Sans Condensed', sans-serif; font-size:36px;  }
 .form_up.connect_detail  h1 span { display:inline-block; font-family:'Open Sans', sans-serif; font-size:22px; line-height:36px; font-weight:400 !important; color:#919191; }
@@ -775,7 +775,7 @@ font-weight: 400; text-transform:uppercase;  }
 
 
 
-/* объекты на карте */
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ */
 #map_results { height:auto; }
 #map_results .map { width:100%; height:740px; }
 .ballon_cont { width:510px; }
@@ -799,7 +799,7 @@ font-weight: 400; text-transform:uppercase;  }
 .navigation_cont .navigation a:hover { background:#f1f1f1; color:#212121; }
 
 
-/* финальный баннер */
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
 #welcome { background:url(/images/first/welcome1.jpg) #f1f1f1 100% 100% no-repeat;  }
 #welcome .container { padding:55px 0 80px 0; min-height:420px; }
 #welcome h2 { max-width:500px; color:#0288d1; font-size:48px; font-weight:700; text-align:left; text-transform:uppercase; }
@@ -865,7 +865,7 @@ footer .privacy a { color:#919191; }
 #view_objects .list .obj1.oblock:hover  .dop_options { display:block; }
 
 
-#view_objects /* список объектов - тизеры */
+#view_objects /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - пїЅпїЅпїЅпїЅпїЅпїЅ */
 #view_objects .list.type_tizer .obj1.oblock:hover  .img_panel { display:none; }
 #view_objects .list.type_tizer .obj1.oblock  .description { display:none; }
 #view_objects .list.type_tizer .obj1.oblock  .button_img_next { display:none; }
@@ -1157,7 +1157,7 @@ footer .privacy a { color:#919191; }
 	
 	
 	
-	/* всплывающее окно с картой */
+	/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
 	.form_up.map .container  { width:580px; }
 	.form_up.map .map_object { width:580px; height:500px; }
 	
