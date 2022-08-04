@@ -1,3 +1,7 @@
+<?php
+header("Cache-control: public");
+header("Cache-control: max-age=3600");
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
