@@ -13,7 +13,6 @@ header("Cache-control: max-age=3600");
     <meta name="Description" content="Полезные статьи о недвижимости - Мой вариант">
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script async="" src="Полезные статьи о недвижимости - Мой вариант_filesag.js.Без названия"></script>
     <script type="text/javascript" src="https://mvariant.ru/js/jquery_1.11.3_jquery.min.js"></script>
 
 
@@ -33,7 +32,6 @@ header("Cache-control: max-age=3600");
     <link href="https://mvariant.ru/css/common.css?v=69" rel="stylesheet" type="text/css">
     <link href="https://mvariant.ru/css/inner.css?v=66" rel="stylesheet" type="text/css">
     <link href="https://mvariant.ru/css/catalog.css?v=69" rel="stylesheet" type="text/css">
-    <link href="Полезные статьи о недвижимости - Мой вариант_filesss" type="text/html">
     <link href="https://mvariant.ru/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="https://mvariant.ru/js/bootstrap-select/bootstrap1.css">
     <link rel="stylesheet" href="https://mvariant.ru/js/bootstrap-select/css/bootstrap-select.css">
@@ -2417,53 +2415,33 @@ header("Cache-control: max-age=3600");
             <a id="topButton" href="#" style="display: inline;"></a>
 
             <!--Подключение плагина inputmask -->
-            <script src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/inputmask.js"
+            <script src="p2/inputmask.js"
                     type="text/javascript"></script>
-            <script src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/jquery.inputmask.js"
+            <script src="p2/jquery.inputmask.js"
                     type="text/javascript"></script>
 
             <!--Подключение плагина для селектов -->
-            <script src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/bootstrap.js"></script>
-            <script src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/bootstrap-select.js"></script>
-            <script src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/defaults-ru_RU.js"></script>
+            <script src="p2/bootstrap.js"></script>
+            <script src="p2/bootstrap-select.js"></script>
+            <script src="p2/defaults-ru_RU.js"></script>
+
 
             <script type="text/javascript"
-                    src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/jquery.fancybox.js"></script>
+                    src="p2/jquery.fancybox.js"></script>
             <link rel="stylesheet" type="text/css"
-                  href="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/jquery.fancybox.css"
+                  href="p2/jquery.fancybox.css"
                   media="screen">
 
             <script type="text/javascript"
-                    src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/main.js"></script>
+                    src="p2/main.js"></script>
             <script type="text/javascript"
-                    src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/jquery.form.js"></script>
+                    src="p2/jquery.form.js"></script>
             <script type="text/javascript"
-                    src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/common_func.js"></script>
+                    src="p2/common_func.js"></script>
             <script type="text/javascript"
-                    src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/validation.js"></script>
+                    src="p2/validation.js"></script>
 
             <script>
-
-                $("a.modal_img").fancybox({
-                    'padding': 0,
-                    'autoScale': false,
-                    'transitionIn': 'none',
-                    'transitionOut': 'none',
-                    'title': this.title,
-                    'href': this.href
-                });
-
-
-                $('[data-fancybox=videos]').fancybox({
-                    youtube: {
-                        controls: 1,
-                        showinfo: 0
-                    },
-                    vimeo: {
-                        color: 'f00'
-                    }
-                });
-
                 function screenHeight() {
                     return $.browser.opera ? window.innerHeight : $(window).height();
                 }
@@ -2472,40 +2450,61 @@ header("Cache-control: max-age=3600");
                     return $.browser.opera ? window.innerWidth : $(window).width();
                 }
 
-                $("#topButton").hide();
-                $(window).scroll(function () {
-                    if ($(window).scrollTop() > 300) {
-                        $("#topButton").show();
-                        $(".nav_mobile").show();
+                $(document).ready(function () {
+                    $("a.modal_img").fancybox({
+                        'padding': 0,
+                        'autoScale': false,
+                        'transitionIn': 'none',
+                        'transitionOut': 'none',
+                        'title': this.title,
+                        'href': this.href
+                    });
+
+                    $('[data-fancybox=videos]').fancybox({
+                        youtube: {
+                            controls: 1,
+                            showinfo: 0
+                        },
+                        vimeo: {
+                            color: 'f00'
+                        }
+                    });
+
+                    $("#topButton").hide();
+                    $(window).scroll(function () {
+                        if ($(window).scrollTop() > 300) {
+                            $("#topButton").show();
+                            $(".nav_mobile").show();
 
 
-                    } else {
-                        $("#topButton").hide();
-                        $(".nav_mobile").hide();
+                        } else {
+                            $("#topButton").hide();
+                            $(".nav_mobile").hide();
 
-                    }
-                    if ($(window).scrollTop() > 100 && $(window).width() >= 1000) {
-                        $("section.header").addClass("scroll");
-                    } else {
-                        $("section.header").removeClass("scroll");
-                    }
+                        }
+                        if ($(window).scrollTop() > 100 && $(window).width() >= 1000) {
+                            $("section.header").addClass("scroll");
+                        } else {
+                            $("section.header").removeClass("scroll");
+                        }
 
-                });
-                $("#topButton").click(function () {
-                    //alert("top");
-                    $("body").animate({scrollTop: 0}, '1000');
-                    $("html").animate({scrollTop: 0}, '1000');
-                    return false;
-                });
+                    });
+                    $("#topButton").click(function () {
+                        //alert("top");
+                        $("body").animate({scrollTop: 0}, '1000');
+                        $("html").animate({scrollTop: 0}, '1000');
+                        return false;
+                    });
 
-                $(".nav_mobile").click(function () {
-                    if ($(".top_mobile").hasClass("show")) {
-                        $(".top_mobile").removeClass("show");
-                        $(".module_mobile").css("padding-top", "0px");
-                    } else {
-                        $(".top_mobile").addClass("show");
-                        $(".module_mobile").css("padding-top", $(".top_mobile").height() + "px");
-                    }
+                    $(".nav_mobile").click(function () {
+                        if ($(".top_mobile").hasClass("show")) {
+                            $(".top_mobile").removeClass("show");
+                            $(".module_mobile").css("padding-top", "0px");
+                        } else {
+                            $(".top_mobile").addClass("show");
+                            $(".module_mobile").css("padding-top", $(".top_mobile").height() + "px");
+                        }
+                    });
                 });
             </script>
 
@@ -2547,7 +2546,7 @@ header("Cache-control: max-age=3600");
                 Мы в соцсетях:
                 <noindex>
                     <a href="https://vk.com/mvariant_ru" target="_blank" rel="nofollow"><img
-                                src="%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B8%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_files/vk.png"
+                                src="p2/vk.png"
                                 alt="Вконтакте"></a>
                     <!--a href="//www.facebook.com/Сервис-подбора-недвижимости-Мой-вариант-163432920986117/" target="_blank" rel="nofollow"><img src="/images/fb.png" alt="Facebook"></a-->
                 </noindex>
