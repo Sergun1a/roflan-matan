@@ -12,7 +12,7 @@ header("Cache-control: max-age=3600");
     <meta name="KeyWords" content="Полезные статьи о недвижимости - Мой вариант">
     <meta name="Description" content="Полезные статьи о недвижимости - Мой вариант">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script type="text/javascript" src="/web/p2/jquery_1.11.3_jquery.min.js"></script>
+    <script type="text/javascript" src="jquery_1.11.3_jquery.min.js"></script>
     <script>
         if (screen.width > 800)
             $("head").append('<meta name="viewport" content="width=1024">');
@@ -569,30 +569,30 @@ header("Cache-control: max-age=3600");
         <div class="container">
             <a id="topButton" href="#" style="display: inline;"></a>
             <!--Подключение плагина inputmask -->
-            <script src="/web/p2/inputmask.js"
+            <script src="inputmask.js"
                     type="text/javascript"></script>
-            <script src="/web/p2/jquery.inputmask.js"
+            <script src="jquery.inputmask.js"
                     type="text/javascript"></script>
 
             <script type="text/javascript"
-                    src="/web/p2/jquery.fancybox.js"></script>
+                    src="jquery.fancybox.js"></script>
             <link rel="stylesheet" type="text/css"
-                  href="/web/p2/jquery.fancybox.css"
+                  href="jquery.fancybox.css"
                   media="screen">
 
             <script type="text/javascript"
-                    src="/web/p2/main.js"></script>
+                    src="main.js"></script>
             <script type="text/javascript"
-                    src="/web/p2/jquery.form.js"></script>
+                    src="jquery.form.js"></script>
             <script type="text/javascript"
-                    src="/web/p2/common_func.js"></script>
+                    src="common_func.js"></script>
             <script type="text/javascript"
-                    src="/web/p2/validation.js"></script>
+                    src="validation.js"></script>
 
             <!--Подключение плагина для селектов -->
-            <script src="/web/p2/bootstrap.js"></script>
-            <script src="/web/p2/bootstrap-select.js"></script>
-            <script src="/web/p2/defaults-ru_RU.js"></script>
+            <script src="bootstrap.js"></script>
+            <script src="bootstrap-select.js"></script>
+            <script src="defaults-ru_RU.js"></script>
 
             <script>
                 function screenHeight() {
@@ -664,7 +664,7 @@ header("Cache-control: max-age=3600");
 
             <div class="left">
                 <div class="logo_bottom"><a href="https://mvariant.ru/"><img
-                                src="/web/p2/logo_bottom.png"></a>
+                                src="logo_bottom.png"></a>
                 </div>
                 <div class="bottom_contacts">
                     <noindex>
@@ -699,7 +699,7 @@ header("Cache-control: max-age=3600");
                 Мы в соцсетях:
                 <noindex>
                     <a href="https://vk.com/mvariant_ru" target="_blank" rel="nofollow"><img
-                                src="/web/p2/vk.png"
+                                src="vk.png"
                                 alt="Вконтакте"></a>
                     <!--a href="//www.facebook.com/Сервис-подбора-недвижимости-Мой-вариант-163432920986117/" target="_blank" rel="nofollow"><img src="/images/fb.png" alt="Facebook"></a-->
                 </noindex>

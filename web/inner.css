@@ -1,0 +1,765 @@
+.button.red { display:block; border-radius:3px; width:270px; height:40px; line-height:40px; color:#fff; background:#ff9300; cursor:pointer; margin:0 auto; }
+.button.red:hover { background:#E58200; }
+
+
+
+.page, .content { width: 1220px; margin: 0 auto; min-height: 500px; }
+
+.article { margin: 0 auto; margin-top: 50px; margin-bottom: 100px; width: 600px; text-align:left; }
+
+.breadcrumbs { background: #76cfff; height: 40px; line-height: 40px; font-size: 12px; color: #fff; }
+.breadcrumbs a { text-decoration: none; font-size: 12px; color: #fff; }
+.breadcrumbs span { margin: 0 10px; }
+
+/* раздел информация */
+.article h1 { font-size: 30px; color: #212121; font-weight:400; font-family: 'Open Sans', sans-serif; text-transform: none; }
+.article .article_date { font-size: 12px; color: #aaaaaa; margin: 20px 0; }
+.article img { width: 100%; max-width: 100%; }
+.article p { color: #525252; font-size: 16px; line-height:170%; padding-bottom:10px; padding-top:5px; font-weight:400; }
+.article h2 { color: #212121; font-size: 24px; padding-bottom:10px; padding-top:15px; font-weight:400; text-align: left; font-family: 'Open Sans', sans-serif; text-transform: none; }
+.article h3 { color: #212121; font-size: 22px; padding-bottom:10px; padding-top:15px; font-weight:400; text-align: left; font-family: 'Open Sans', sans-serif; text-transform: none; }
+.article ul { padding-bottom:8px; }
+.article ol { padding-bottom:8px; }
+.article ul li { font-size:16px; color: #525252; line-height:170%; padding-bottom:7px; margin-left:50px; list-style-type:disc; font-weight:400; }
+.article ol li { font-size:16px; color: #525252; line-height:170%; padding-bottom:7px; margin-left:50px; list-style-type:decimal; font-weight:400; }
+
+.article .article_rec { margin-top: 40px; margin-bottom: 60px; }
+.article .article_rec .title { font-size: 20px; color: #212121; font-weight: 300; margin-bottom: 10px; }
+.article .article_rec a { display:block; font-size: 16px; color: #0288d1; margin-top: 10px; text-decoration: none; }
+.article .article_rec a:hover { text-decoration: underline; }
+.article .article_keys { background: #f7f7f7; padding: 20px 30px; color: #8b8b8b; font-size: 14px; line-height: 24px; }
+.article .article_keys a { color: #8b8b8b; font-size: 14px; text-decoration: none; }
+.article .article_keys a:hover { color: #0288d1; }
+
+.article .comments  { margin-top:50px; }
+.article .comments .button { float:right; width:250px;  }
+.article .comments .title { font-size: 28px; color: #212121;  font-weight: 300; padding-bottom: 10px;  }
+.article .comments .block { padding:10px 0; border-bottom:solid 1px #dadada; }
+.article .comments .block .title { padding:5px; /*background:#f1f1f1;*/ line-height:18px; }
+.article .comments .block .title .user_name { font-weight:700; font-size:14px;  }
+.article .comments .block .title .date { display:inline-block; padding-left:10px; color:#747474; font-size:12px;  }
+.article .comments .block .text { padding:5px 5px 15px 5px; }
+.article .comments .block .control { padding:5px 5px 5px 15px; background:#f1f1f1; font-size:12px; }
+.article .comments .block .control .email { padding:3px 5px 5px 10px; }
+.article .comments .block .control .status { padding:3px 5px 5px 10px; font-size:14px; font-weight:700; }
+.article .comments .block .control .button { float:none; margin:5px; width:130px;  }
+
+.article_info_obmen { width:530px; height:205px; padding:15px 30px 20px 40px; background:url(/images/article_obmen.jpg) 0 0 no-repeat; margin:20px 0 25px 0; }
+.article_info_obmen h2 { width:450px; height:40px; color:#0288d1; font-size: 27px; font-weight: 700; }
+.article_info_obmen p { width:450px; color:  #0288d1; font-size: 17px; font-weight: 600; line-height: 24px; padding-bottom:30px; }
+.article_info_obmen .button { display:inline-block; background-color:  #ff9300; width: 257px; height: 40px; line-height:40px; text-transform:uppercase; }
+.article_info_obmen a { display:inline-block; height: 40px; line-height:40px; padding:0 30px 0 20px; color:#ff9300; font-size:14px; font-weight:700; background:url(/images/article_arrow.png) 115px 14px no-repeat;  text-transform:uppercase; text-decoration:none; }
+.article_info_obmen a:hover { text-decoration:underline; }
+
+
+/* раздел информация - список статей */
+.page_info h1 { margin: 30px auto; background: #fff; color: #2da4e5; font-size: 30px; width:1220px; font-weight: 300; }
+.page_info .info { background: #eaeaea; min-height: 300px; padding-bottom:100px; }
+.page_info .info_keys { padding: 10px 0; }
+.page_info .info_keys label { padding: 10px 0; }
+.page_info .info_keys input { padding: 10px 0; }
+.page_info .info_keys .tag { color: #8b8b8b; text-decoration: none; margin-right: 20px; font-size: 14px; cursor:pointer; }
+.page_info .info_keys .tag:hover { color:#0288d1; }
+.page_info .info_choice { margin:10px 0; }
+.page_info .info_choice .close_tag { display:inline-block; background:#fff; color:#212121; font-size:14px; padding:5px 10px; margin-right:10px; }
+.page_info .info_choice .close_tag span { vertical-align:middle; margin-left:10px; cursor:pointer; }
+.page_info .info_blocks { margin-top:50px; }
+.page_info .info_blocks .block { display:inline-block; vertical-align:top; margin:0 10px 25px 0; width:287px; height:440px; text-align:left; background:#fff; border: 1px solid #dadada; border-radius:2px; position:relative; }
+.page_info .info_blocks .block img { width:287px; }
+.page_info .info_blocks .block .article_panel { padding:15px; }
+.page_info .info_blocks .block .article_panel .title { color:#000; font-size:18px; font-weight:300; margin-bottom: 10px; }
+.page_info .info_blocks .block .article_panel .text { display:block; color:#a2a2a2; font-size:14px; max-height:95px; overflow:hidden; }
+.page_info .info_blocks .block .article_bottom { position: absolute; bottom: 0; left: 0; width: 100%; }
+.page_info .info_blocks .block .article_bottom .date { float: left; margin-left: 20px; margin-top: 10px; color: #aaaaaa; font-size: 12px; }
+.page_info .info_blocks .block .article_bottom > a { float: right; border-radius: 2px; width:110px; height:38px; line-height:38px; text-decoration: none; margin-right: 20px; margin-bottom: 20px; }
+.page_info .info_show { padding: 50px 0; text-align: right; }
+.page_info .info_show a { background: #fff; border: 1px solid #dadada; border-radius: 2px; font-size: 14px; color: #0288d1; text-decoration: none; }
+.page_info .button.more { margin:30px 0; width:150px; height:45px; line-height:45px;   }
+.clr { float: none; clear: both; }
+
+
+
+/* Раздел О проекте */
+.page_about h2 { color:#0288d1; font-size:40px; font-weight:700; line-height:50px; text-align:center;  }
+.page_about.owner {  }
+.page_about.owner.header1 { padding:70px 0 0 0; height:300px; background:url(/images/about/owner_header.jpg) 50% 0 no-repeat; }
+.page_about.owner.header1 h1 { color:#0288d1; font-size:60px; line-height:70px; font-weight:700; text-align:left; padding-bottom:30px; }
+.page_about.owner.header1 .h1_descript { color:#0064a5; font-size:20px; font-weight:400; text-align:left; }
+
+.page_about.agents.header1 { padding:100px 0 0 0; height:auto; background:url(/images/about/header_agents.jpg) 50% 0 no-repeat; }
+.page_about.agents.header1 h1 { color:#0288d1; font-size:48px; line-height:58px; font-weight:700; text-align:left; padding-bottom:30px; max-width:750px; }
+.page_about.agents.header1 .h1_descript { color:#0064a5; font-size:20px; font-weight:400; text-align:left; }
+
+.page_about.agents.header1 .full_descript { margin-top:80px; padding:130px 0 100px 50%; background:url(/images/about/header_agents_1.png) 0 0 no-repeat; }
+.page_about.agents.header1 .full_descript p { color:#8b8b8b; font-size:16px; font-weight:400; line-height:28px; padding-bottom:25px; }
+
+
+.page_about.agents.obmen { padding:70px 0 70px 0; background-color:#f5f5f5; }
+.page_about.agents.obmen .full_descript1 { padding:0px 0 50px 45%; }
+.page_about.agents.obmen .full_descript2 { padding:40px 35% 50px 0; background:url(/images/about/xml.png) 95% 55px no-repeat; }
+.page_about.agents.obmen h2 { text-align:left; padding-bottom:15px; max-width:500px; }
+.page_about.agents.obmen p { color:#7d7d7d; font-size: 16px; font-weight: 400; line-height: 28px; padding-top:20px; max-width:680px; }
+.page_about.agents.obmen p.quote { float:left; width:370px; margin-top:20px; background:url(/images/about/quote.png) #fff 40px 35px no-repeat; background-size:50px; padding:85px 20px 40px 40px; 
+color:  #0288d1; font-size: 16px; font-weight: 400; line-height: 28px; }
+
+.page_about.agents.about { padding:100px 0 70px 0; }
+.page_about.agents.about .list_blocks { padding:90px 0 50px 0; text-align:center; }
+.page_about.agents.about .list_blocks .block { display:inline-block; vertical-align:top; width:290px; padding:0px 50px 60px 80px; background:url(/images/about/list_pict.png) 0 0 no-repeat; background-size:54px; text-align: left; }
+.page_about.agents.about .list_blocks .block h3 { padding-bottom:20px; color:#0288d1; font-size: 18px; font-weight: 600; line-height: 24px; }
+.page_about.agents.about .list_blocks .block p { color:  #8b8b8b; font-size: 14px; line-height: 22px; }
+
+
+.page_about.owner.about  { padding:0px 0 50px 0; }
+.page_about.owner.about .list_blocks { padding:90px 0 50px 0; text-align:center; }
+.page_about.owner.about .list_blocks li { display:inline-block; vertical-align:top; width:250px; padding:0px 50px 80px 80px; background:url(/images/about/list_pict.png) 0 0 no-repeat; background-size:54px; color:#0288d1; font-size: 18px; font-weight: 600; line-height: 24px; text-align: left; }
+.page_about.owner.about .button  { display:block; border-radius:3px; width:260px; height:40px; line-height:20px; color:#fff; margin:30px auto; background:url(/images/first/btn_arr.png) #ff9300 260px 27px no-repeat; padding:15px 30px; text-align:left;  }
+.page_about.owner.about .button:hover  { background:url(/images/first/btn_arr.png) #E58200 260px 27px no-repeat; }
+.page_about.owner.about  .columns { padding:0 0 50px 0; color:#8b8b8b; font-size:16px; font-weight:400; line-height:28px; text-align:left;
+    -webkit-column-width:500px; -moz-column-width:500px; column-width:500px; 
+    -webkit-column-count:2; -moz-column-count:2; column-count:2; 
+    -webkit-column-gap:50px; -moz-column-gap:50px; column-gap:50px; 
+   }
+   
+.statistic { background-color:#75d7ff; padding:60px 0 70px 0; }
+.statistic h2 { display:inline-block; vertical-align:top; width:280px; color:#ffffff; font-size:40px; font-weight:700; line-height:46px; text-align:left; padding-top:15px; }
+.statistic .stats_cont { display:inline-block; vertical-align:top; padding-left:50px; }
+.statistic .stats_cont .block { display:inline-block; vertical-align:top; width:220px; color:#ffffff; text-align:left; padding-left:50px; }
+.statistic .stats_cont .block .num { font-size:60px; font-weight:300; }
+.statistic .stats_cont .block p { font-size:16px; font-weight:400; line-height:20px; }
+
+.page_about.owner.schema {  }
+.page_about.schema .container { padding:70px 0; font-size:0; }
+.page_about.schema h2 { max-width:600px; margin:30px auto 80px auto; }
+.page_about.schema .schema_steps { width:500px; padding-left:30px; margin:0 auto 80px auto; }
+.page_about.schema .block { color:#949494; font-size:14px; font-weight:400; line-height:22px; text-align:left; }
+.page_about.schema .block h3 { color:#0288d1; font-size:18px; font-weight:600; line-height:24px; text-align:left; padding:15px 0 10px 0; }
+.page_about.schema .block span.img { display:inline-block; vertical-align:top; width:52px; height:50px; margin-right:30px; margin-top:10px; }
+.page_about.schema .block .cont { display:inline-block; vertical-align:top; max-width:340px; padding:0 0 30px 60px; background:url(/images/first/shcema_center.png) 0 0 no-repeat;  }
+.page_about.schema .block.b1 .cont { background:url(/images/first/schema_top.png) 0 20px no-repeat; }
+.page_about.schema .block.b5 .cont { background:url(/images/first/schema_bottom.png) 0 0 no-repeat; }
+
+.page_about.owner.schema .block.b1 span.img { background:url(/images/first/schema.png) 0 0 no-repeat; background-size:52px; }
+.page_about.owner.schema .block.b2 span.img { background:url(/images/first/schema.png) 0 -50px no-repeat; background-size:52px; }
+.page_about.owner.schema .block.b3 span.img { background:url(/images/first/schema.png) 0 -100px no-repeat; background-size:52px; }
+.page_about.owner.schema .block.b4 span.img { background:url(/images/first/schema.png) 0 -150px no-repeat; background-size:52px; }
+.page_about.owner.schema .block.b5 span.img { background:url(/images/first/schema.png) 5px -200px no-repeat; background-size:52px; }
+
+.page_about.agents.schema .schema_steps { width:580px; padding-left:30px;   }
+.page_about.agents.schema .block span.img { display:inline-block; vertical-align:top; width:63px; height:50px; margin-right:20px; margin-top:10px; }
+.page_about.agents.schema .block .cont {   max-width:420px;    }
+.page_about.agents.schema .block.b1 span.img { background:url(/images/first/schema1.png) 0 -50px no-repeat; background-size:63px; }
+.page_about.agents.schema .block.b2 span.img { background:url(/images/first/schema1.png) 0 -100px no-repeat; background-size:63px; }
+.page_about.agents.schema .block.b3 span.img { background:url(/images/first/schema1.png) 0 -150px no-repeat; background-size:63px; }
+.page_about.agents.schema .block.b4 span.img { background:url(/images/first/schema1.png) 0 -250px no-repeat; background-size:63px; }
+.page_about.agents.schema .block.b6 span.img { background:url(/images/first/schema1.png) 0px -300px no-repeat; background-size:63px; }
+.page_about.agents.schema .block.b5 span.img { background:url(/images/first/schema1.png) 5px -350px no-repeat; background-size:63px; }
+
+.page_about.schema .button  { width:270px; color:#fff; margin:50px auto; }
+
+.page_about.owner.pluses { background-color:  #f5f5f5; padding:70px 0 0 0; }
+.page_about.owner.pluses .icon_blocks { text-align:center; max-width:900px; margin:70px auto; padding-left:70px; }
+.page_about.owner.pluses .icon_blocks .block { display:inline-block; vertical-align:top; width:300px; padding:0 40px 60px 80px; text-align:left; }
+.page_about.owner.pluses .icon_blocks .block.b1 { background:url(/images/about/owner_p_1.png) 0 0 no-repeat; background-size:58px; }
+.page_about.owner.pluses .icon_blocks .block.b2 { background:url(/images/about/owner_p_2.png) 0 0 no-repeat; background-size:55px;}
+.page_about.owner.pluses .icon_blocks .block.b3 { background:url(/images/about/icon_no_P_x2.png) 0 0 no-repeat; background-size:47px;}
+.page_about.owner.pluses .icon_blocks .block.b4 { background:url(/images/about/owner_p_4.png) 0 0 no-repeat; background-size:52px; }
+.page_about.owner.pluses .icon_blocks .block h3 { color:#0288d1; font-size:18px; font-weight:600; }
+.page_about.owner.pluses .icon_blocks .block p { color:#8b8b8b; font-size:14px; font-weight:400; line-height:22px; }
+
+.page_about.agents.how-it-work { background-color:#f5f5f5; padding:70px 0 0 0; }
+.page_about.agents.how-it-work h2 { max-width:700px;  margin:0px auto 0 auto; text-align:center; }
+.page_about.agents.how-it-work p { max-width:700px; color:#0288d1; font-size:20px; font-weight:400; line-height:28px; margin:30px auto 0 auto; padding-bottom:20px; text-align:center; }
+.page_about.agents.how-it-work .icon_blocks { text-align:center; max-width:900px; margin:70px auto; padding-left:70px; }
+.page_about.agents.how-it-work .icon_blocks .block { display:inline-block; vertical-align:top; width:300px; padding:0 40px 45px 75px; text-align:left; }
+.page_about.agents.how-it-work .icon_blocks .block h3 { color:#0288d1; font-size:18px; font-weight:600; }
+.page_about.agents.how-it-work .icon_blocks .block p { color:#8b8b8b; font-size:14px; font-weight:400; line-height:22px; text-align:left; margin-top:20px; }
+.page_about.agents.how-it-work .icon_blocks .block.b1 { background:url(/images/about/icon_P_x2.png) 20px 0 no-repeat; background-size:23px; }
+.page_about.agents.how-it-work .icon_blocks .block.b2 { background:url(/images/about/agents_pict_2.png) 5px 0 no-repeat; background-size:44px;}
+.page_about.agents.how-it-work .icon_blocks .block.b3 { background:url(/images/about/agents_pict_4.png) 15px 0 no-repeat; background-size:30px;}
+.page_about.agents.how-it-work .icon_blocks .block.b4 { background:url(/images/about/agents_pict_3.png) 0 0 no-repeat; background-size:57px; }
+
+.page_about.owner.sell-buy { padding:70px 0 70px 0; text-align:center;}
+.page_about.owner.sell-buy h2 { max-width:600px; margin:0 auto 60px auto; }
+.page_about.owner.sell-buy p { max-width:600px; color:#949494; font-size:16px; font-weight:400; line-height:24px;  margin:0 auto 0 auto; padding-bottom:20px;}
+.page_about.owner.sell-buy .block { display:inline-block; vertical-align:top; background-color:#f5f5f5; width:330px; height: 500px; padding:30px 30px 30px 50px; margin:50px 30px; text-align:left; }
+.page_about.owner.sell-buy .block h3 { color:  #0288d1; font-size: 24px; font-weight: 700; line-height: 24px; padding:20px 0 40px 0; text-transform:uppercase; }
+.page_about.owner.sell-buy .block.b1 h3 { background:url(/images/about/owner_sell.png) 96% 20px no-repeat; background-size:60px; }
+.page_about.owner.sell-buy .block.b2 h3 { background:url(/images/about/owner_p_2.png) 98% 0 no-repeat; background-size:55px; }
+.page_about.owner.sell-buy .block p { padding:25px 0 30px 0px; background:url(/images/about/owner_p.png) 0 0 no-repeat; background-size:20px; }
+.page_about.owner.sell-buy .block .button { width:140px; margin:30px 0; }
+.page_about.owner.sell-buy .block.b1 .button { width:140px; margin:5px 0 30px 0; }
+
+.page_about.owner.sell-buy.type1 {  padding:70px 0 0px 0; background:#f1f1f1; }
+.page_about.owner .info_blocks { margin-top:50px; margin-bottom:70px;  }
+.page_about.owner .info_blocks .block1 { display:inline-block; vertical-align:top; margin:0 10px 25px 0; padding:0; width:287px; height:440px; text-align:left; background:#fff; border: 1px solid #dadada; border-radius:2px; position:relative; }
+.page_about.owner .info_blocks .block1 img { width:287px; }
+.page_about.owner .info_blocks .block1 .article_panel { padding:15px; }
+.page_about.owner .info_blocks .block1 .article_panel .title { color:#000; font-size:18px; font-weight:300; margin-bottom: 10px; }
+.page_about.owner .info_blocks .block1 .article_panel .text { display:block; color:#a2a2a2; font-size:14px; max-height:95px; overflow:hidden; }
+.page_about.owner .info_blocks .block1 .article_bottom { position: absolute; bottom: 0; left: 0; width: 100%; }
+.page_about.owner .info_blocks .block1 .article_bottom .date { float: left; margin-left: 20px; margin-top: 10px; color: #aaaaaa; font-size: 12px; }
+.page_about.owner .info_blocks .block1 .article_bottom > a { float: right; border-radius: 2px; width:110px; height:38px; line-height:38px; text-decoration: none; margin-right: 20px; margin-bottom: 20px; }
+.page_about.owner .info_show { padding: 50px 0; text-align: right; }
+.page_about.owner .info_show a { background: #fff; border: 1px solid #dadada; border-radius: 2px; font-size: 14px; color: #0288d1; text-decoration: none; }
+.page_about.owner .button.more { margin:30px 0; width:150px; height:45px; line-height:45px; }
+
+
+.page_about.agents.price { padding:100px 0 70px 0; text-align:center; }
+.page_about.agents.price .block { display:inline-block; vertical-align:top; background-color:#f5f5f5; width:330px; height: 680px; padding:30px 30px 30px 50px; margin:50px 30px; text-align:left; }
+.page_about.agents.price .block .price { color:#0288d1; font-size:22px; padding-bottom:5px; }
+.page_about.agents.price .block .price_descript { color:#0288d1; font-size:14px; font-style:italic;padding-bottom:30px; }
+.page_about.agents.price .block h3 { color:#0288d1; font-size: 24px; font-weight: 700; line-height: 35px; padding:20px 0 20px 0; text-transform:uppercase; }
+.page_about.agents.price  .block p { padding:25px 0 30px 0px; background:url(/images/about/owner_p.png) 0 0 no-repeat; background-size:20px; }
+.page_about.agents.price  .block .button { width:300px; margin:15px 0 15px 0; }
+.page_about.agents.price  .block .button.contur { width:300px; margin:35px 0 0 0; color:#ff9300; height:40px; line-height:40px; background:#f5f5f5; /*border-color:#f5f5f5;*/ }
+.page_about.agents.price  .block .button.contur:hover {  border-color:#ff9300 !important; }
+.page_about.agents.price  .block.b2 .button { margin:15px 0 15px 0; }
+.page_about.agents.price  a { width:300px; margin:30px auto; display:block; }
+
+#welcome .button { width:270px; height:50px; line-height:50px; margin:40px 0 0 0; }
+#welcome p { color:#0288d1; font-size: 20px; margin:40px 0 0 0; max-width:500px; }
+
+
+/* раздел тарифы */
+.tarifs { text-align:center; width:94%; margin: 0 auto; }
+.tarifs > h1 { padding: 50px 0 30px 0; text-align:center; color:#0288d1; font-size:30px; font-weight:400; }
+.tarifs h2.in_text { padding: 10px 0 20px 0; text-align:center; color:#0288d1; font-size:30px; font-weight:400; }
+.tarifs p { font-size: 16px; color: #525252; line-height: 24px; font-weight:300;  padding-bottom:35px; }
+.tarifs .tarifs_blocks { margin-bottom: 50px; }
+.tarifs .tarifs_blocks .block { display:inline-block; vertical-align:top; margin:0 10px 20px 10px; width: 240px; height: 410px; border: 1px solid #cdcdcd; background: #f8f8f8; position: relative; border-radius: 2px; }
+.tarifs .tarifs_blocks .block.crm {  width: 280px; height: 260px;  }
+.tarifs .tarifs_blocks .block > h2 { border-bottom: 1px solid #cdcdcd; background: #fff; text-align: center; font-size: 22px; color: #212121; padding: 15px 0; font-weight: 400; }
+.tarifs .tarifs_blocks .block.crm > h2 { border-bottom: 1px solid #cdcdcd; background: #fff; text-align: center; font-size: 20px; color: #0288d1; padding: 15px 0; font-weight: 400; }
+.tarifs .tarifs_blocks .block > .cost { font-size: 16px; color: #212121; text-align: center; margin: 10px 0; }
+.tarifs .tarifs_blocks .block > .cost div { font-size: 13px; color: #949494; text-align: center; margin: 0px 0; }
+.tarifs .tarifs_blocks .block > span { font-size: 18px; color: #949494; text-align: center; display: block; }
+.tarifs .tarifs_blocks .block > small { font-size: 12px; color: #949494; text-align: center; display: block; }
+.tarifs .tarifs_blocks .block > .obmen { margin: 15px 5px 10px 5px;  }
+.tarifs .tarifs_blocks .block > .bottom { position: absolute; left: 0; bottom: 0; width: 100%; }
+.tarifs .tarifs_blocks .block > .bottom .button { border: 1px solid #cdcdcd; border-radius: 2px; height: 46px; line-height: 46px; display: block;  margin: 0 20px; margin-bottom: 10px; background: #fff; color: #0288d1; font-size: 14px;
+    text-decoration: none; text-align: center; cursor:pointer; }
+.tarifs .tarifs_blocks .block > .bottom .choice { border: none; background: #0288d1; color: #fff; margin-bottom: 20px; }
+.tarifs .text { text-align:left; max-width:830px; margin: 0 auto 50px auto; }
+.tarifs .text.tarif_desc { display:none; }
+
+.tarifs .text > h2 { color: #212121; font-size: 32px; margin-bottom: 20px; font-weight: 400; }
+.tarifs .text > p { font-size: 16px; color: #525252; line-height: 24px; font-weight:300;  padding-bottom:15px; }
+.tarifs .text ul { padding-bottom:8px; }
+.tarifs .text ol { padding-bottom:8px; }
+.tarifs .text ul li { font-size:16px; color:#525252; line-height:170%; padding-bottom:7px; margin-left:20px; list-style-type:disc; font-weight:300; }
+.tarifs .text ol li { font-size:16px; color:#525252; line-height:170%; padding-bottom:7px; margin-left:20px; list-style-type:decimal; font-weight:300; }
+.tarifs .text .button { width:220px; height:50px; line-height:50px; margin-top:20px; }
+
+/* таблица тарифов */
+.tarifs table { border-collapse:collapse; margin:0px auto 20px auto; }
+.tarifs table tr {  }
+.tarifs table tr td { padding:10px 10px 10px 10px; border:solid 1px #cdcdcd; width:145px; text-align:center; vertical-align:middle; color:  #212121; font-size: 14px; }
+.tarifs table tr td span { color:#949494; }
+.tarifs table tr.option { display:none; }
+.tarifs table tr.name td { padding:20px 10px 20px 10px; border:solid 1px #0d66a2; background:#0288d1; font-size:16px; font-weight: 600; line-height: 24px; text-align: center; color:#fff; }
+.tarifs table tr.name td.first { border:solid 1px #0d66a2; background:#007bbe; color:#76cfff; }
+.tarifs table tr.for td { padding:15px 10px 15px 10px; color:#0288d1; font-size: 13px; font-weight:400; line-height:18px; text-align:center; }
+.tarifs table tr.price td { color:#212121; font-size:14px; font-weight:600; line-height:18px; text-align:center; }
+.tarifs table tr.price td.free { color:#009640; }
+.tarifs table tr.price td span { color:#949494; }
+.tarifs table tr.descript td { padding:15px 10px 15px 10px; color:#949494; font-size:12px; font-weight: 400; line-height:16px; text-align:left; }
+
+.tarifs table tr td.first { color:#949494; font-size:13px; font-weight:400; line-height: 18px; text-align: left; background-color:#f8f8f8; }
+.tarifs table tr td.yes { background:url(/images/pict_yes.png) 50% 50% no-repeat; background-size:21px; }
+.tarifs table tr td.no { background:url(/images/pict_no.png) 50% 50% no-repeat; background-size:17px; }
+.tarifs table tr td .button { width: 145px; height: 40px; line-height:40px; color:#fff; }
+.tarifs table tr td .button.contur { width: 150px; height: 40px; line-height:40px; color:#0288d1; }
+.tarifs table tr td.option_btn { padding:15px 10px 15px 10px; }
+.tarifs table tr td.option_btn .more {  display:inline-block; color:#0288d1; font-size: 14px; font-weight: 600; text-align:left; padding-right:20px; background:url(/images/pict_more1.png) 100% 7px no-repeat; background-size:10px; cursor:pointer; } 
+.tarifs table tr td.option_btn .more.shown { display:inline-block; background:url(/images/pict_more.png) 100% 7px no-repeat; background-size:10px; }
+
+
+
+/* группы  */
+section.help {  }
+section.help  .title  { color:#2da4e5; font-size:30px; font-family:'Open Sans Condensed', sans-serif; font-weight:700; margin:20px 0; }
+section.help .left_side .button.menu { display:none; }
+section.help .left_side { display:inline-block; vertical-align:top; width:300px; margin-top:30px; }
+section.help .left_side .lk_links { width:250px; }
+section.help .left_side .lk_links .block { display:block; color:#0288d1; font-size:14px; font-weight:600; width:230px; padding:6px 5px 6px 15px; height:22px; line-height:22px; text-decoration:none; }
+
+section.help .left_side .lk_links .block span { display:none; font-size:10px; padding:0 3px; color:#7ed1ff; }
+section.help .left_side .lk_links .block.down span.glyphicon-chevron-down { display:inline; }
+section.help .left_side .lk_links .block.up span.glyphicon-chevron-up{ display:inline; }
+section.help .left_side .lk_links .sub_menu  { display:none; }
+section.help .left_side .lk_links .sub_menu .block {  font-weight:400; width:215px; padding:5px 3px 5px 30px; height:auto; line-height:16px; opacity:0.9; }
+section.help .left_side .lk_links .elem.active .sub_menu { display:block;  }
+section.help .left_side .lk_links .elem:hover .sub_menu { /*display:block;*/ }
+section.help .left_side .lk_links .block:hover { background-color:#e5f7ff; }
+section.help .left_side .lk_links .block.active { background:#e5f7ff; color:#212121;  }
+
+section.help .profile_info { width:310px; margin-top:30px; background-color:  #f5f5f5; }
+section.help .profile_info .inner { padding:30px 20px 30px 20px; }
+section.help .profile_info .inner .line { color:#8e8e8e; font-size:14px; font-weight:400; line-height:24px; }
+section.help .profile_info .inner .line span { color:#212121; }
+
+.help .right_side { display:inline-block; vertical-align:top; max-width:800px; margin-top:30px; margin-left:40px; }
+.help .right_side h1 { margin:20px 0; font-weight:400; font-size:30px; }
+.help .right_side h2 { margin:20px 0; font-weight:400; font-size:20px; }
+.help .right_side h3 { margin:20px 0; font-weight:600; font-size:16px; }
+.help .right_side p { font-size:14px; color:#727272; line-height:170%; padding-bottom:15px; }
+.help .right_side ul { padding-bottom:8px; }
+.help .right_side ol { padding-bottom:8px; }
+.help .right_side ul li { font-size:14px; color:#727272; line-height:170%; padding-bottom:7px; margin-left:20px; list-style-type:disc; }
+.help .right_side ol li { font-size:14px; color:#727272; line-height:170%; padding-bottom:7px; margin-left:20px; list-style-type:decimal; }
+.help .right_side table { float:none; border-spacing:0; border:solid 1px #dadada; border-collapse:collapse; }
+.help .right_side table th { padding:5px 10px; border:solid 1px #dadada; background:#f1f1f1; font-size:14px; color:#727272; line-height:170%; }
+.help .right_side table td { padding:5px 10px; border:solid 1px #dadada; font-size:14px; color:#727272; line-height:170%; }
+
+.help .support_form { width:590px; }
+.help .support_form h2 { color:#2da4e5; font-size:30px; font-family:'Open Sans Condensed', sans-serif;  font-weight:700; }
+.help .support_form .reciver { color:#212121; padding:20px 0 0px 2px; }
+.help .support_form .reciver span { color:#919191; }
+.help .support_form form { margin-top:15px; }
+.help .support_form input { width:590px; height:35px; line-height:35px; padding:0 10px; border-radius: 2px; border:solid 1px #dadada; background-color:#f8f8f8; font-size:14px; }
+.help .support_form textarea { width:590px; height:200px; border-radius: 2px; padding:10px; border:solid 1px #dadada; background-color:#f8f8f8; font-size:14px; margin-top:10px; }
+.help .support_form .controls { margin-top:20px; height:50px; }
+.help .support_form .controls .add { float:left; }
+.help .support_form .controls .add .add_pict { padding:3px 5px; cursor:pointer; font-size:18px; opacity:0.5; }
+.help .support_form .controls .add .add_pict:hover { opacity:1; }
+.help .support_form .controls .add .add_inner { display:none; }
+.help .support_form .controls .button { float:right; width:200px; cursor:pointer; }
+.help .support_form  .dropzone { border:solid 1px #fff; padding:0; border-radius:3px; }
+
+/*статичная форма регистрации*/
+.reg_user_static {  }
+.reg_user_static form { text-align:center; padding:3px; vertical-align:top; }
+
+.reg_user_static h3 { text-align:center; color:#333; font-size: 22px; font-weight: 400; margin:0 auto 10px auto; padding:0; }
+.reg_user_static p { text-align:center; color:#333; font-size: 16px; font-weight: 400; margin:0 auto 25px auto; padding:0;  } 
+.reg_user_static .border, .form_up .noborder { width:368px; margin:0 auto 30px auto; text-align:left; } 
+.reg_user_static .border p { color:#333; font-size: 12px; font-weight: 700; margin:0 auto 10px auto; padding:0; border-bottom:solid 1px #C1C1C1; text-align:left; } 
+.reg_user_static .noborder p { color:#333; font-size: 12px; font-weight: 700; margin:0 auto 10px auto; padding:0; text-align:left; } 
+.reg_user_static .border label { color: #292929; font-size: 12px; line-height: 12px; font-weight:400; }
+.reg_user_static .text { display:block; margin:0 auto 20px auto; text-align:center; border:solid 1px #C1C1C1; background-color:#ffffff; font-size:14px; width:368px; height:40px; line-height:40px; border-radius:3px; }
+.reg_user_static .text_ { display:block; margin:0 auto 20px auto; text-align:center; border:solid 1px #C1C1C1; background-color:#ffffff; font-size:14px; width:368px; height:40px; line-height:40px; border-radius:3px; }
+.reg_user_static .text1 { display:block; margin:0 auto 20px auto; text-align:center; height:28px; line-height:28px; }
+.reg_user_static .info_text { color:#292929; font-size:14px; line-height:18px; font-weight:400; }
+
+.reg_user_static .button { /*display:block;*/ width:368px; height:50px; line-height:50px; margin:20px auto 20px auto; }
+
+.reg_user_static .container { width:1200px; padding:30px 0; text-align:center; }
+.reg_user_static .left { width:370px; display:inline-block; vertical-align:top; }
+.reg_user_static .right { width:370px; display:inline-block;  vertical-align:top; margin-top:10px; padding:20px 30px 40px 60px; background:#f1f1f1; margin-left:90px; }
+.reg_user_static .right.t3 { width:420px; }
+.reg_user_static .center { width:0px; display:inline-block; vertical-align:top; }
+.reg_user_static .center .button  { width:200px; }
+.reg_user_static h1 { color:#2da4e5; font-size:30px; font-family:'Open Sans Condensed', sans-serif; font-weight:700; margin-bottom:20px; }
+.reg_user_static .right.hide { display:none; }
+.reg_user_static .right p {  color:#717171; line-height:30px; }
+.reg_user_static .right p.icon {  padding-left:60px; padding-bottom:10px; background:url(/images/about/owner_p.png) 0 0 no-repeat; }
+.reg_user_static h3 { color:#2da4e5; font-size:30px; font-family:'Open Sans Condensed', sans-serif; font-weight:700; margin-bottom:20px; text-align:left; }
+.reg_user_static .right h3 {  margin-bottom:30px; }
+.reg_user_static .right p { font-size:18px; margin-bottom:20px; text-align:left; }
+.reg_user_static p { font-size:20px; margin-bottom:10px; line-height:160%; }
+.reg_user_static form .caption { font-size:18px; color:red; font-style:italic; margin-bottom:20px; }
+.reg_user_static .line { width:350px; margin:0 auto; text-align:center; }
+.reg_user_static .line.promo input { margin-top:15px; font-size:18px; }
+.reg_user_static .left .button { width:310px; }
+.reg_user_static .line label { display:inline-block; font-weight:400; font-size:14px; margin:10px 0 20px 0; }
+.reg_user_static .line span { display:inline-block; margin:2px 0; }
+.reg_user_static .line .t1 input { width:200px; }
+.reg_user_static .line .t2 input { width:348px; }
+.reg_user_static .line .t3 input { width:304px; }
+.reg_user_static .line.up { margin:20px auto 10px auto; }
+.reg_user_static .line.up .title { padding-bottom:5px; color:#212121; font-weight:400; font-size:14px; }
+.reg_user_static .line.up .cont { margin:10px 0; }
+.reg_user_static  form span { display:inline-block; position:relative; }
+.reg_user_static   form  span em { display:block; position:absolute; width:200px; top:40px; left:0px; font-size:11px; line-height:14px; color:#D3220A; text-align:left; }
+.reg_user_static   #messageReg {    padding: 30px 20px 0 20px; } 
+.reg_user_static  .links span { cursor:pointer; color:#2da4e5; border-bottom:dashed 1px #2da4e5; } 
+.reg_user_static  #messageReg h3 { text-align:center; } 
+
+/**/
+#company_page  {  padding:70px 0 100px 0; }
+#company_page  h1 { padding:0px 0 5px 0; font-size: 30px; color: #212121; font-weight: 400; font-family: 'Open Sans', sans-serif; text-transform: none; }
+#company_page .left_side {  display:inline-block; vertical-align:top; text-align:left; width:250px; }
+#company_page .contacts { display:inline-block; vertical-align:top; width:300px; color:#212121; font-size:14px; line-height:22px; }
+#company_page .right_side { display:inline-block; vertical-align:top; width:580px; text-align:left; padding:0 50px 0 10px; }
+#company_page .left_side .img { width:210px; height:210px; border:solid 2px #dadada; display:table-cell; vertical-align:middle; text-align:center; }
+#company_page .left_side img { width:200px; border:none; }
+#company_page .person{ text-align:left; color:#919191; font-size:14px; margin-bottom:15px; }
+#company_page .person .context_link { text-align:left; color:#0288d1; font-size:14px; margin-bottom:15px; cursor:pointer; border-bottom:dashed 1px #fff; }
+#company_page .person .context_link:hover { border-bottom:dashed 1px #0288d1; }
+#company_page .city { color:#919191; font-size:14px; margin-bottom:5px; }
+#company_page .company { display:block; color:#0288d1; font-size:18px; font-weight: 400; padding-bottom:5px; }
+#company_page  .phone { font-size:18px; padding-bottom:10px; }
+#company_page  .phone.type1 { font-size:24px; padding:10px 0; }
+#company_page  .phone2 { display:inline-block; font-size:14px; padding-top:5px; }
+#company_page  .address { font-size:16px; padding-bottom:10px; color:#717171; }
+#company_page  .email { line-height:20px; padding-bottom:5px; }
+#company_page  .site { line-height:20px; }
+#company_page .contacts .filials  { padding:30px 0 0 0; }
+#company_page .contacts .filial  { padding:15px 0; }
+#company_page .contacts .filial .name { display:block; color:#0288d1; font-size:18px; font-weight: 400; padding-bottom:5px; }
+#company_page .contacts .filial .address { font-size:14px; padding-bottom:5px;  }
+#company_page .contacts .filial .phone { font-size:14px; padding-bottom:5px;  }
+#company_page .contacts .filial .email { padding-bottom:5px; }
+#company_page .description { margin:30px 0 0 0; color:#717171; line-height:170%; }
+#company_page .stats { padding-top:15px; color:#919191; font-size:14px; }
+#company_page .stats div { line-height:18px; margin:4px 0; }
+#company_page  h3 { text-align:left; }
+
+#company_list { background:#f1f1f1; padding-bottom:100px; }
+#company_list.main { background:#fff; padding-bottom:100px; }
+#company_list.main .reg { display:inline-block; padding:10px 20px 0 0; }
+#company_list h1 { padding: 50px 0 30px 0; text-align: center; color: #0288d1;  font-size: 30px; font-weight: 400; }
+#company_list .items {  }
+#company_list .block { border:solid 1px #eee; padding:15px 0 15px 0; background:#fff; margin:10px 0; border-radius:3px; }
+#company_list .block .img { display:inline-block; vertical-align:top; width:220px; height:160px;  position:relative;}
+#company_list .block .img img { max-height:160px; max-width:190px; padding-left:15px; }
+#company_list .block .info { display:inline-block; vertical-align:top; width:750px; height:160px;  position:relative;}
+#company_list .block .stats { display:inline-block; vertical-align:top; width:220px; height:160px;  text-align:right; position:relative; }
+#company_list .block .name { color:#212121; font-size:22px; padding-bottom:0px; }
+#company_list .block .phone { padding-bottom:20px; }
+#company_list .block .address { font-size:14px; color:#2da4e5; padding:7px 0 10px 15px; height:20px; background:url(/images/picts/pict_map.png) 0 7px no-repeat; background-size:11px; }
+#company_list .block .description { font-size:14px; color:#717171; line-height:150%; padding-right:30px; position:absolute; right:0; bottom:10px; }
+#company_list .block .date { font-size:14px; color:#717171; padding-bottom:20px; }
+#company_list .block .obj { font-size:14px; color:#212121; }
+#company_list .block .button { width:150px; height:35px; line-height:35px; position:absolute; right:0; bottom:10px; }
+
+
+section.content_page .container { max-width:900px; }
+section.content_page .title  { color:#2da4e5; font-size:30px; font-family:'Open Sans Condensed', sans-serif; font-weight:700; margin:20px 0; }
+section.content_page h1 { margin:40px 0; font-weight:400; font-size:30px; }
+section.content_page h2 { margin:30px 0 20px 0; font-weight:400; font-size:20px; }
+section.content_page p { font-size:16px; color:#525252; line-height:170%; padding-bottom:15px; font-weight:300; }
+section.content_page ul { padding-bottom:8px; }
+section.content_page ol { padding-bottom:8px; }
+section.content_page ul li { font-size:16px; color:#525252; line-height:170%; padding-bottom:7px; margin-left:20px; list-style-type:disc; font-weight:300; }
+section.content_page ol li { font-size:16px; color:#525252; line-height:170%; padding-bottom:7px; margin-left:20px; list-style-type:decimal; font-weight:300; }
+
+@media only screen and (max-width: 1240px) {
+	.container { width:96%; margin: 0 2%;  }
+	.page_info h1 { width:96%; margin:30px 2%; font-size: 30px; font-weight: 300; }
+  	
+	.statistic h2 { display:inline-block; width:240px;  font-size:32px; line-height:42px; }
+	.statistic .stats_cont { padding-left:20px; }
+	.statistic .stats_cont .block { width:190px; padding-left:19px; }
+	.statistic .stats_cont .block .num { font-size:50px; }
+	.statistic .stats_cont .block p { font-size:16px; line-height:20px; }
+	
+	.page_about.agents.obmen p { width:auto;  }
+	.page_about.agents.obmen p.quote {  margin-top:20px; margin-left:20px; }
+	
+	.page, .content { width:96%; margin: 0 auto; min-height: 500px; text-align:center; }
+	.page_info h1 { margin: 30px auto; font-size: 30px; width:96%;  }
+	
+	#company_page .left_side {  width:20%; }
+	#company_page .right_side { width:46%; padding:0 4% 0 2%; }
+	#company_page .contacts {  width:27%; }
+	
+	#company_list .block .img { width:23%;  height:160px; }
+	#company_list .block .info { width:60%;  height:160px; }
+	#company_list .block .stats { width:15%;  height:160px; }
+	
+	.reg_user_static .container { width:96%; margin: 0 2%; }
+
+	.help .right_side {  max-width: 700px; }
+}
+
+@media only screen and (max-width: 1150px) {
+	.page_about.agents.header1 { padding:100px 0 0 0; height:auto; background:url(/images/about/header_agents.jpg) 50% 0 no-repeat; }
+	.page_about.agents.header1 h1 { color:#0288d1; font-size:40px; line-height:50px; font-weight:700; text-align:left; padding-bottom:30px; max-width:630px; }
+	.page_about.agents.header1 .h1_descript { color:#0064a5; font-size:20px; font-weight:400; text-align:left; }
+	.page_about.agents.header1 .full_descript { margin-top:80px; padding:90px 0 100px 50%; background:url(/images/about/header_agents_1.png) 0 110px no-repeat;  background-size:450px; }
+	.page_about.agents.header1 .full_descript p { color:  #8b8b8b; font-size: 16px; font-weight: 400; line-height: 28px; padding-bottom:25px; }
+	
+
+	.page_about.agents.obmen .full_descript1 { padding:0px 0 50px 50%; }
+	.page_about.agents.obmen .full_descript2 { padding:40px 45% 50px 0;  }
+
+	.help .right_side {  max-width: 600px; }
+	
+}
+@media only screen and (max-width: 1100px) {
+	.page_about.owner.about  .columns { 
+    -webkit-column-width:300px; -moz-column-width:300px; column-width:300px; 
+    -webkit-column-count:2; -moz-column-count:2; column-count:2; 
+    -webkit-column-gap:50px; -moz-column-gap:50px; column-gap:50px; 
+   }
+   .page_about.owner.about  .columns p { padding-bottom:25px; }
+   .page_about.owner.about .list_blocks li { width: 220px; padding: 0px 30px 70px 70px; }
+   
+   .page_about.agents.obmen .full_descript1 { padding:0px 0 50px 54%; }
+   
+    #company_list .block .img { width:23%;  height:180px; }
+	#company_list .block .info { width:60%;  height:180px; }
+	#company_list .block .stats { width:15%;  height:180px; }
+
+}
+
+@media only screen and (max-width: 1020px) {
+	.reg_user_static .right {  margin-top:50px; margin-left:40px; margin-right:30px;}
+	.help .right_side {  max-width: 500px; }
+}
+
+@media only screen and (max-width: 960px) {
+	.page_about.owner.header1 h1 { font-size:48px; line-height:60px; }
+	.page_about.owner.header1 .h1_descript { font-size:20px; }
+	
+	.statistic h2 { display:inline-block; width:240px;  font-size:32px; line-height:42px; }
+	.statistic .stats_cont { padding-left:20px; }
+	.statistic .stats_cont .block { width:170px; padding-left:19px; }
+	.statistic .stats_cont .block .num { font-size:50px; }
+	.statistic .stats_cont .block p { font-size:16px; line-height:20px; }
+	
+	.page_about.agents.header1 .full_descript { margin-top:80px; padding:70px 0 100px 50%; background:url(/images/about/header_agents_1.png) -20px 120px no-repeat;  background-size:380px; }
+	.page_about.agents.header1 .full_descript p {  font-size: 16px;  line-height: 28px; padding-bottom:25px; }
+	
+	.page_about.agents.obmen { padding:60px 0 60px 0; }
+	.page_about.agents.obmen h2 { text-align:left; padding-left:20px; padding-top:30px; padding-bottom:10px; max-width:1000px; }
+	.page_about.agents.obmen p { font-size:20px; font-weight:400; line-height:36px; padding-top:20px; padding-left:20px; width:auto; max-width:800px; margin:0; }
+	.page_about.agents.obmen p.quote { margin-top:0px; margin-bottom:30px; margin-left:0px; float:none; width:auto; font-size:20px; line-height:36px; padding-right:30px; }	
+	
+	.page_about.agents.obmen .full_descript1 { padding:0px 0 50px 0%; }
+	.page_about.agents.obmen .full_descript2 { padding:10px 0% 50px 0; background:url(/images/about/xml.png) 80px 180px no-repeat; }
+	.page_about.agents.obmen .full_descript2  h2 { padding-bottom:40px; max-width:700px; padding-bottom:300px; height:100px; }
+	
+	#company_page .left_side {  width:35%; }
+	#company_page .right_side { width:60%; padding:0 0 0 4%; }
+	#company_page .contacts {  width:60%; padding:50px 0 0 39%; }
+	
+	#company_list .block .img { width:28%;  height:190px; }
+	#company_list .block .info { width:51%;  height:190px; }
+	#company_list .block .stats { width:18%;  height:190px; }
+	
+}
+
+@media only screen and (max-width: 900px) {
+	.page_about.agents.header1 { padding:60px 0 0 0; background:url(/images/about/header_agents.jpg) 50% 0 no-repeat; background-size:1600px; }
+	.page_about.agents.header1 h1 {  font-size:36px; line-height:46px;  max-width:550px; }
+	.page_about.agents.header1 .h1_descript { max-width:300px; }
+	
+	section.help .left_side .button.menu { display:block; float:right; width:200px; margin-right:10px; margin-top:7px; }
+	section.help .left_side { display:block; width:auto; margin-top:30px; }
+	.help .right_side { display:block; width:auto; max-width: 800px; margin-left: 10px; }
+	
+}
+@media only screen and (max-width: 880px) {
+	.statistic {  text-align:center; }
+	.statistic h2 { display:block; width:auto; text-align:center; padding:0 0 40px 0; font-size:42px; line-height:52px; }
+	.statistic .stats_cont .block  { padding-left:0; }
+	.statistic .stats_cont .block { width:168px; padding:0px 10px; text-align:center; }
+	.statistic .stats_cont .block .num { font-size:50px; }
+	.statistic .stats_cont .block p { font-size:16px; line-height:20px; }
+	
+	.page_about.agents.about { padding:80px 0 20px 0; }
+
+	.page_about.agents.about .list_blocks  { padding-left:40px; }
+	.page_about.agents.about .list_blocks .block { width:440px; padding:0px 50px 50px 80px; }
+	.page_about.agents.about .list_blocks .block h3 { padding-bottom:20px; font-size: 24px; line-height: 32px; }
+	.page_about.agents.about .list_blocks .block p { font-size: 20px; line-height: 34px; }
+
+	.page_about.agents.how-it-work .icon_blocks  { padding-left:40px; }
+	.page_about.agents.how-it-work .icon_blocks .block { display:inline-block; vertical-align:top; width:410px; padding:0 40px 45px 75px; text-align:left; }
+	.page_about.agents.how-it-work .icon_blocks .block h3 {font-size:24px; }
+	.page_about.agents.how-it-work .icon_blocks .block p { font-size:20px; font-weight:400; line-height:34px;  }
+	.page_about.agents.how-it-work  p { font-size:20px; line-height:34px; max-width:500px; }	
+	
+	#company_list .block .img { width:30%;  height:190px; }
+	#company_list .block .info { width:69%;  height:190px; }
+	#company_list .block .description { padding-right:10px;  }
+	#company_list .block .stats { width:67%; padding:15px 0 0 30%; height:auto; }
+	#company_list .block .button { left:32%; bottom:0px; }
+	#company_list .block .date { padding-bottom:3px; }
+}
+
+@media only screen and (max-width: 860px) {
+	#welcome .button {  margin:40px 0 0 40px;  }
+	#welcome p {margin:40px 0 0 40px; }
+}
+@media only screen and (max-width: 800px) {
+	.page_about.agents.header1 { padding:40px 0 0 0; background:url(/images/about/header_agents.jpg) 55% 0 no-repeat; background-size:1600px;  }
+	.page_about.agents.header1 h1 {  font-size:34px; line-height:44px; max-width:400px; }
+	.page_about.owner.header1 { background: url(/images/about/owner_header.jpg) 52% 0 no-repeat; background-size:1700px; }
+}
+
+@media only screen and (max-width: 770px) {
+	.page_about.owner.header1 h1 { font-size:34px; line-height:44px; }
+	.page_about.owner.header1 .h1_descript { max-width:250px; }
+	.page_about.owner.header1 { background: url(/images/about/owner_header.jpg) 55% 0 no-repeat; background-size:1600px; }
+	
+	.page_about.agents.header1 .full_descript { margin-top:80px; padding:40px 30px 50px 30px; background:none; }
+	.page_about.agents.header1 .full_descript p {  font-size: 20px;  line-height: 36px; padding-bottom:30px; }
+	
+	#company_list .block .img { width:37%;  height:210px; }
+	#company_list .block .info { width:62%;  height:210px; }
+	#company_list .block .stats { width:62%; padding:15px 0 0 37%; height:auto; }
+	#company_list .block .button { left:39%; bottom:0px; }
+	#company_list .block .date { padding-bottom:3px; }
+}
+
+@media only screen and (max-width: 670px) {
+	.page_about.owner.about  .columns { padding:0 20px; }
+	.page_about.owner.about  .columns p { font-size:20px; line-height:34px; }	
+	.page_about.owner.about .list_blocks { padding:10px 0 40px 0; text-align: center; }
+	.page_about.owner.about .list_blocks li  { width:200px; padding:0px 25px 60px 65px; background-size:54px; font-size:18px; line-height:24px; }
+}
+
+@media only screen and (max-width: 620px) {
+	/*.page_info .info_blocks .block img { float:left; margin-right:15px; }
+	.page_info .info_blocks .block  { width:580px; height:260px; }
+	.page_info .info_blocks .block .article_panel .title { color:#000; font-size:20px; font-weight:300; margin-bottom: 10px; }
+	.page_info .info_blocks .block .article_panel .text { display:block; color:#a2a2a2; font-size:16px; max-height:127px; overflow:hidden; }
+	.page_info .info_blocks .block .article_bottom > a { float: none; margin-left:107px; }*/
+	
+	.page_about.schema .block { font-size:18px; line-height:26px; }
+	.page_about.schema .block h3 { font-size:20px; line-height:32px; }	
+	
+	.page_about h2 { font-size: 36px; line-height: 46px; }
+	.page_about.agents.about .list_blocks { padding-left: 0px; }
+	.page_about.agents.about .list_blocks .block { width: auto; padding: 0px 10px 50px 80px; }
+	.page_about.agents.about .list_blocks .block h3 { padding-bottom: 20px; font-size: 20px; line-height: 28px; }
+	.page_about.agents.about .list_blocks .block p { font-size: 16px; line-height: 28px; }
+
+	.page_about.agents.schema .schema_steps { width: auto; padding-left: 10px; }
+	
+	div.container { margin: 0 0px; }
+	.page_about.agents.obmen .full_descript2 { padding: 10px 0% 50px 0; background: url(/images/about/xml.png) 20px 200px no-repeat; background-size:300px;	}
+	.page_about.agents.header1 .full_descript p { font-size: 16px;line-height: 28px;	}
+	.page_about.agents.obmen p { font-size: 16px; line-height: 28px; }
+   
+	.page_about.schema .schema_steps {
+		width: auto;
+		padding-left: 20px;
+		margin: 0 auto 80px auto;
+	}
+	.page_about.schema .block { color:#949494; font-size:14px; font-weight:400; line-height:22px; text-align:left; }
+
+	.page_about.schema .block .cont { display:inline-block; width:240px; vertical-align:top; max-width:340px; padding:0 0 5px 45px; background:url(/images/first/shcema_center.png) 0 0 no-repeat;  }
+	.page_about.schema .block span.img { margin-right: 5px;  margin-top: 10px; }
+	.page_about.schema .block h3 {  font-size: 18px; line-height: 28px; }
+	.page_about h2 { font-size: 30px; line-height: 40px; }
+
+	.page_about.agents.how-it-work .icon_blocks .block { width: auto; padding: 0 10px 45px 75px; }
+	.page_about.agents.how-it-work .icon_blocks {     padding-left:10px; }
+	.page_about.agents.how-it-work .icon_blocks .block p { font-size: 16px; line-height: 26px; }
+
+	.page_about.agents.price .block {
+		display: inline-block;
+		vertical-align: top;
+		background-color: #f5f5f5;
+		width: 310px;
+		height: auto;
+		padding: 30px 10px 30px 30px;
+		margin: 50px 00px;
+		text-align: left;
+	}
+
+	.page_about.owner.header1 {
+		background: url(/images/about/owner_header.jpg) 0 0 no-repeat;		
+	}
+	.page_about.owner.header1 {
+		padding: 50px 0 0 0;
+		height: 230px;
+		margin-bottom:30px;
+	}
+	.page_about.owner.about .columns p {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.page_about.owner.pluses .icon_blocks .block {
+	  
+		width: 250px;
+		padding: 0 20px 40px 80px;
+		text-align: left;
+	}
+
+	.page_about.owner.pluses .icon_blocks {
+		padding-left: 0px;
+	}
+
+	.page_about.owner.sell-buy .block {
+		display: inline-block;
+		vertical-align: top;
+		background-color: #f5f5f5;
+		width: 280px;
+		height:auto;
+		padding: 30px 20px 30px 30px;
+		margin: 20px 00px;
+		text-align: left;
+	}
+
+	.statistic .stats_cont .block {
+		width: 168px;
+		padding: 10px 10px;
+		text-align: center;
+	}
+	.page_about.owner.about .list_blocks {
+		padding: 10px 0 0px 0;
+		text-align: center;
+	}
+	.page_about.owner.header1 h1 { text-align:center; }
+	.page_about.owner.header1 .h1_descript { text-align:center; max-width:100%; }
+
+	.article { width: auto; }
+.article_info_obmen {
+    width: auto;
+    height: auto;
+    padding: 15px 30px 40px 40px;
+	background-size:cover;
+   }
+
+.article_info_obmen h2 {
+    width: auto;
+    height: auto;
+}
+.article_info_obmen p {
+   width: auto;
+}
+
+.article_info_obmen a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 50px 0px 20px;
+    color: #ff9300;
+    font-size: 14px;
+    font-weight: 700;
+    background: url(/images/article_arrow.png) 115px 14px no-repeat;
+    text-transform: uppercase;
+    text-decoration: none;
+	
+	border:solid 1px #ff9300; 
+	border-radius:3px;
+	margin-top:10px;
+}
+
+.help .right_side img { max-width: 100%; }
+section.help .left_side .lk_links {  width: 300px; margin:0 auto; }
+section.help .left_side .lk_links .block {   width: 280px; }
+section.help .left_side .lk_links .sub_menu .block { width: 267px; }
+section.help .left_side .lk_links { display:none; }
+}
+
+@media only screen and (max-width: 450px) {
+	.nav_chain { display:none; }
+	.page_about.agents.header1 { background-position: 0 0; }
+}
+
+@media only screen and (max-width: 320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
