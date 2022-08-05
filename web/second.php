@@ -239,8 +239,6 @@ header("Cache-control: max-age=3600");
         </noindex>
         <script>
             function add_comment(article_id) {
-                //alert(article_id);
-
                 $.ajax({
                     type: "POST",
                     url: "/index.php?mod=articles&act=add_comment_form&article_id=" + article_id,
