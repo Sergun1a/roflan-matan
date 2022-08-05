@@ -147,7 +147,7 @@
 
             <!-- Yandex.Metrika counter -->
             <script type="text/javascript">
-                $(document).ready(function () {
+                setTimeout(function () {
                     (function (m, e, t, r, i, k, a) {
                         m[i] = m[i] || function () {
                             (m[i].a = m[i].a || []).push(arguments)
@@ -163,7 +163,7 @@
                         accurateTrackBounce: true,
                         webvisor: true
                     });
-                })
+                },1500);
             </script>
             <script>
                 if (screen.width > 800)
