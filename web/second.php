@@ -16,22 +16,6 @@ header("Cache-control: max-age=3600");
             src="tag.js"></script>
     <script type="text/javascript"
             src="jquery_1.11.3_jquery.min.js"></script>
-
-    <script>
-        //alert(screen.width);
-
-        if (screen.width > 800)
-            $("head").append('<meta name="viewport" content="width=1024">');
-        if (screen.width > 620 && screen.width <= 800)
-            $("head").append('<meta name="viewport" content="width=800">');
-        if ($(window).width() > 480 && $(window).width() <= 620)
-            $("head").append('<meta name="viewport" content="width=620">');
-
-        if ($(window).width() <= 480)
-            $("head").append('<meta name="viewport" content="width=390">');
-
-
-    </script>
     <meta name="viewport" content="width=1024">
 
     <link href="common.css"
@@ -40,28 +24,23 @@ header("Cache-control: max-age=3600");
           rel="stylesheet" type="text/css">
     <link href="catalog.css"
           rel="stylesheet" type="text/css">
-
     <link href="css.css"
           rel="stylesheet">
-
     <link href="https://mvariant.ru/favicon.ico" rel="shortcut icon" type="image/x-icon">
-
-    <script>
-        $(document).ready(function () {
-            $('.selectpicker').selectpicker({});
-        });
-    </script>
-
     <link rel="stylesheet"
           href="bootstrap1.css">
     <link rel="stylesheet"
           href="bootstrap-select.css">
-
     <script src="json.txt"
             type="text/javascript"></script>
     <link href="yandex-map.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<script>
+    $(document).ready(function () {
+        $('.selectpicker').selectpicker({});
+    });
+</script>
 <div id="container">
     <?php include "header.html"; ?>
     <div class="nav_chain">
@@ -258,7 +237,6 @@ header("Cache-control: max-age=3600");
                 </div>
             </section>
         </noindex>
-
         <script>
             function add_comment(article_id) {
                 //alert(article_id);
@@ -281,8 +259,6 @@ header("Cache-control: max-age=3600");
                 });
             }
         </script>
-
-
     </div>
     <?php include "footer.html"; ?>
 </div>

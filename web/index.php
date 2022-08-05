@@ -13,17 +13,6 @@ header("Cache-control: max-age=3600");
     <meta name="Description" content="Полезные статьи о недвижимости - Мой вариант">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script type="text/javascript" src="jquery_1.11.3_jquery.min.js"></script>
-    <script>
-        if (screen.width > 800)
-            $("head").append('<meta name="viewport" content="width=1024">');
-        if (screen.width > 620 && screen.width <= 800)
-            $("head").append('<meta name="viewport" content="width=800">');
-        if ($(window).width() > 480 && $(window).width() <= 620)
-            $("head").append('<meta name="viewport" content="width=620">');
-
-        if ($(window).width() <= 480)
-            $("head").append('<meta name="viewport" content="width=390">');
-    </script>
     <meta name="viewport" content="width=1024">
     <link href="https://mvariant.ru/css/common.css?v=69" rel="stylesheet" type="text/css">
     <link href="https://mvariant.ru/css/inner.css?v=66" rel="stylesheet" type="text/css">
@@ -49,7 +38,6 @@ header("Cache-control: max-age=3600");
         <h1>Полезная информация</h1>
         <div class="info">
             <div class="content">
-
                 <noindex>
                     <div class="info_keys">
                         <span class="tag" data="обмен" rel="nofollow">обмен</span>
@@ -140,9 +128,7 @@ header("Cache-control: max-age=3600");
                         <span class="tag" data="ипотечные каникулы" rel="nofollow">ипотечные каникулы</span>
 
                         <span class="tag" data="реновация" rel="nofollow">реновация</span>
-
                     </div>
-
                     <div class="info_choice">
                     </div>
                 </noindex>

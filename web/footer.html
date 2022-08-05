@@ -165,6 +165,17 @@
                     });
                 })
             </script>
+            <script>
+                if (screen.width > 800)
+                    $("head").append('<meta name="viewport" content="width=1024">');
+                if (screen.width > 620 && screen.width <= 800)
+                    $("head").append('<meta name="viewport" content="width=800">');
+                if ($(window).width() > 480 && $(window).width() <= 620)
+                    $("head").append('<meta name="viewport" content="width=620">');
+
+                if ($(window).width() <= 480)
+                    $("head").append('<meta name="viewport" content="width=390">');
+            </script>
             <noscript>
                 <div><img src="https://mc.yandex.ru/watch/47248734" style="position:absolute; left:-9999px;" alt=""/>
                 </div>
