@@ -54,7 +54,7 @@
     <link rel="stylesheet"
           href="bootstrap-select.css">
 
-    <script src="/json.txt"
+    <script src="json.txt"
             type="text/javascript"></script>
     <link href="yandex-map.css" rel="stylesheet" type="text/css">
 </head>
