@@ -17,6 +17,7 @@ header("Cache-control: max-age=3600");
     <script type="text/javascript"
             src="jquery_1.11.3_jquery.min.js"></script>
     <meta name="viewport" content="width=1024">
+    <link href="important.min.css" rel="stylesheet" type="text/css">
     <script src="json.txt"
             type="text/javascript"></script>
 </head>
