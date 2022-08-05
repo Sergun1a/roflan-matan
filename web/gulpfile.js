@@ -20,7 +20,6 @@ var cleanCSS = require('gulp-clean-css');
  */
 function styles() {
     return gulp.src("*.css")
-        .pipe(less())
         .pipe(cleanCSS())
         // pass in options to the stream
         .pipe(rename({
@@ -46,17 +45,9 @@ var build = gulp.parallel(styles, scripts);
  * You can use CommonJS `exports` module notation to declare tasks
  */
 exports.styles = styles;
-exports.scripts = scripts;
+//exports.scripts = scripts;
 exports.build = build;
 /*
  * Define default task that can be called by just running `gulp` from cli
  */
-exports.default = build;
-
-gulp.task('css', () => {
-    return styles();
-});
-
-gulp.task('js', () => {
-    return scripts();
-})
+exports.default = styles;
