@@ -14,13 +14,13 @@ header("Cache-control: max-age=3600");
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script type="text/javascript" src="jquery_1.11.3_jquery.min.js"></script>
     <meta name="viewport" content="width=1024">
-    <link href="https://mvariant.ru/css/common.css?v=69" rel="stylesheet" type="text/css">
+   <!-- <link href="https://mvariant.ru/css/common.css?v=69" rel="stylesheet" type="text/css">
     <link href="https://mvariant.ru/css/inner.css?v=66" rel="stylesheet" type="text/css">
     <link href="https://mvariant.ru/css/catalog.css?v=69" rel="stylesheet" type="text/css">
     <link href="https://mvariant.ru/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="https://mvariant.ru/js/bootstrap-select/bootstrap1.css">
     <link rel="stylesheet" href="https://mvariant.ru/js/bootstrap-select/css/bootstrap-select.css">
-    <script src="Полезные статьи о недвижимости - Мой вариант_filesson.txt" type="text/javascript"></script>
+    <script src="Полезные статьи о недвижимости - Мой вариант_filesson.txt" type="text/javascript"></script>-->
 </head>
 <body>
 <script>
