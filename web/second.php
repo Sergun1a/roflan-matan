@@ -17,19 +17,6 @@ header("Cache-control: max-age=3600");
     <script type="text/javascript"
             src="jquery_1.11.3_jquery.min.js"></script>
     <meta name="viewport" content="width=1024">
-    <link href="common.css"
-          rel="stylesheet" type="text/css">
-    <link href="inner.css"
-          rel="stylesheet" type="text/css">
-    <link href="catalog.css"
-          rel="stylesheet" type="text/css">
-    <link href="css.css"
-          rel="stylesheet">
-    <link href="https://mvariant.ru/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <link rel="stylesheet"
-          href="bootstrap1.css">
-    <link rel="stylesheet"
-          href="bootstrap-select.css">
     <script src="json.txt"
             type="text/javascript"></script>
 </head>

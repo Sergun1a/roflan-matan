@@ -26,11 +26,12 @@ function styles() {
             basename: 'main',
             suffix: '.min'
         }))
+        .pipe(concat('main.min.css'))
         .pipe(gulp.dest("."));
 }
 
 function scripts() {
-    return gulp.src("*.js", {sourcemaps: true})
+    return gulp.src(["*.js","!jquery_1.11.3_jquery.min.js"], {sourcemaps: true})
         .pipe(uglify())
         .pipe(concat('main.min.js'))
         .pipe(gulp.dest("."));
@@ -50,4 +51,4 @@ exports.build = build;
 /*
  * Define default task that can be called by just running `gulp` from cli
  */
-exports.default = styles;
+exports.default = build;
