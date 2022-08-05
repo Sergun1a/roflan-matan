@@ -39,7 +39,7 @@ header("Cache-control: max-age=3600");
         $('.selectpicker').selectpicker({});
     });
 </script>
-<?= include "header.html"; ?>
+<?php include "header.html"; ?>
 <div class="nav_chain">
     <div class="container"><a href="https://mvariant.ru/">Главная</a><span>Блог</span>
     </div>
@@ -435,6 +435,6 @@ header("Cache-control: max-age=3600");
 
     </script>
 </div>
-<?= include "footer.html"; ?>
+<?php include "footer.html"; ?>
 </body>
 </html>

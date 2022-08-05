@@ -29,8 +29,7 @@ function clean() {
  * Define our tasks using plain functions
  */
 function styles() {
-    return gulp.src("css/*.css")
-        .pipe(src("js/**/*.css"))
+    return gulp.src("/web/*.css")
         .pipe(less())
         .pipe(cleanCSS())
         // pass in options to the stream
@@ -38,15 +37,14 @@ function styles() {
             basename: 'main',
             suffix: '.min'
         }))
-        .pipe(gulp.dest("css/min/"));
+        .pipe(gulp.dest("/web/"));
 }
 
 function scripts() {
-    return gulp.src("js/*.js", {sourcemaps: true})
-        .pipe("js/**/*.js")
+    return gulp.src("/web/*.js", {sourcemaps: true})
         .pipe(uglify())
         .pipe(concat('main.min.js'))
-        .pipe(gulp.dest("js/min/"));
+        .pipe(gulp.dest("/web/"));
 }
 
 /*
