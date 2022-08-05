@@ -11,6 +11,7 @@ var cleanCSS = require('gulp-clean-css');
  */
 function styles() {
     return gulp.src(["*.css", "!common.css", "!inner.css", "!catalog.css", "!bootstrap-select.css", "!bootstrap1.css"])
+        .pipe(less())
         .pipe(cleanCSS())
         // pass in options to the stream
         .pipe(rename({
@@ -39,6 +40,7 @@ function footerJs() {
 
 function importantCss() {
     return gulp.src(["common.css", "inner.css", "catalog.css", "bootstrap-select.css", "bootstrap1.css"])
+        .pipe(less())
         .pipe(cleanCSS())
         // pass in options to the stream
         .pipe(rename({
