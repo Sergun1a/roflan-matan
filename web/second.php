@@ -221,8 +221,8 @@ header("Cache-control: max-age=3600");
                 </div>
             </section>
         </noindex>
-        <script src="json.txt"
-                type="text/javascript"></script>
+        <!--<script src="json.txt"
+                type="text/javascript"></script>-->
         <script>
             function add_comment(article_id) {
                 $.ajax({
