@@ -2,9 +2,6 @@
     <footer>
         <div class="container">
             <a id="topButton" href="#" style="display: inline;"></a>
-            <!--<script>
-                <?php /*include "footer.min.js";*/?>
-            </script>-->
             <script src="footer.min.js" type="text/javascript"></script>
             <script>
                 $("a.modal_img").fancybox({
@@ -228,14 +225,10 @@
     </div>
     <script src="main.min.js"
             type="text/javascript"></script>
-    <!--<script>
-        <?php /*include "main.min.js";*/?>
-    </script>-->
     <script>
         $("#preloader .close").click(function () {
             $("#preloader").hide();
         });
-
     </script>
     <!-- Конец шаблона футера -->
 </div>
