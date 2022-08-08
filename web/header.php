@@ -146,8 +146,8 @@
         </div>
     </section>
 </div>
-<script>
-    <?php include "json.txt";?>
-</script>
+<!--<script>
+    <?php /*include "json.txt";*/?>
+</script>-->
 <!--<script src="json.txt"
         type="text/javascript"></script>-->
