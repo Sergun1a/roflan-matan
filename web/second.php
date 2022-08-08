@@ -26,7 +26,7 @@ header("Cache-control: max-age=3600");
     });
 </script>
 <div id="container">
-    <?php include "header.html"; ?>
+    <?php include "header.php"; ?>
     <div class="nav_chain">
         <div class="container"><a href="https://mvariant.ru/">???????</a><a
                     href="https://mvariant.ru/info/">????</a><span>????? ?????? ???? ?????? ????? ?? ???????</span>
@@ -221,8 +221,6 @@ header("Cache-control: max-age=3600");
                 </div>
             </section>
         </noindex>
-        <!--<script src="json.txt"
-                type="text/javascript"></script>-->
         <script>
             function add_comment(article_id) {
                 $.ajax({
@@ -244,7 +242,7 @@ header("Cache-control: max-age=3600");
             }
         </script>
     </div>
-    <?php include "footer.html"; ?>
+    <?php include "footer.php"; ?>
 </div>
 
 

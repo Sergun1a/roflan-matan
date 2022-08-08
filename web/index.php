@@ -2,27 +2,7 @@
 header("Cache-control: public");
 header("Cache-control: max-age=3600");
 ?>
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
-
-    <!-- Начало шаблона метаданных -->
-    <title>Полезные статьи о недвижимости - Мой вариант</title>
-    <meta name="KeyWords" content="Полезные статьи о недвижимости - Мой вариант">
-    <meta name="Description" content="Полезные статьи о недвижимости - Мой вариант">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script type="text/javascript" src="jquery_1.11.3_jquery.min.js"></script>
-    <meta name="viewport" content="width=1024">
-    <link href="important.min.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-<script>
-    $(document).ready(function () {
-        $('.selectpicker').selectpicker({});
-    });
-</script>
-<?php include "header.html"; ?>
+<?php include "header.php"; ?>
 <div class="nav_chain">
     <div class="container"><a href="https://mvariant.ru/">Главная</a><span>Блог</span>
     </div>
@@ -415,6 +395,4 @@ header("Cache-control: max-age=3600");
 
     </script>
 </div>
-<?php include "footer.html"; ?>
-</body>
-</html>
+<?php include "footer.php"; ?>

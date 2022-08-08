@@ -1,4 +1,29 @@
-<link href="main.min.css" rel="stylesheet" type="text/css" media="all">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <!-- Начало шаблона метаданных -->
+    <title>Полезные статьи о недвижимости - Мой вариант</title>
+    <meta name="KeyWords" content="Полезные статьи о недвижимости - Мой вариант">
+    <meta name="Description" content="Полезные статьи о недвижимости - Мой вариант">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script type="text/javascript" src="jquery_1.11.3_jquery.min.js"></script>
+    <meta name="viewport" content="width=1024">
+    <!--<link href="important.min.css" rel="stylesheet" type="text/css">-->
+</head>
+<body>
+<style>
+    <?php include "important.min.css";?>
+</style>
+<script>
+    $(document).ready(function () {
+        $('.selectpicker').selectpicker({});
+    });
+</script>
+<style>
+    <?php include "main.min.css";?>
+</style>
+<!--<link href="main.min.css" rel="stylesheet" type="text/css" media="all">-->
 <div class="header">
     <section class="header">
         <div class="container">
@@ -58,16 +83,16 @@
                             <a href="https://mvariant.ru/nedvigimost/">База объектов</a>
                             <div class="submenu">
                                 <div><a href="https://mvariant.ru/nedvigimost/v-yaroslavle/">Ярославль</a><a
-                                        href="https://mvariant.ru/nedvigimost/v-primorskom-krae/">Приморский
-                                    край</a><a href="https://mvariant.ru/nedvigimost/v-yaroslavskoy-oblasti/">Ярославская
-                                    область</a><a
-                                        href="https://mvariant.ru/nedvigimost/vo-vladivostoke/">Владивосток</a><a
-                                        href="https://mvariant.ru/nedvigimost/v-tutaeve/">Тутаев</a><a
-                                        href="https://mvariant.ru/nedvigimost/v-ryibinske/">Рыбинск</a><a
-                                        href="https://mvariant.ru/nedvigimost/v-rostove-velikom/">Ростов</a><a
-                                        href="https://mvariant.ru/nedvigimost/v-gorode-buy/">Буй</a><a
-                                        href="https://mvariant.ru/nedvigimost/v-galiche/">Галич</a><a
-                                        href="https://mvariant.ru/nedvigimost/v-volgorechenske/">Волгореченск</a>
+                                            href="https://mvariant.ru/nedvigimost/v-primorskom-krae/">Приморский
+                                        край</a><a href="https://mvariant.ru/nedvigimost/v-yaroslavskoy-oblasti/">Ярославская
+                                        область</a><a
+                                            href="https://mvariant.ru/nedvigimost/vo-vladivostoke/">Владивосток</a><a
+                                            href="https://mvariant.ru/nedvigimost/v-tutaeve/">Тутаев</a><a
+                                            href="https://mvariant.ru/nedvigimost/v-ryibinske/">Рыбинск</a><a
+                                            href="https://mvariant.ru/nedvigimost/v-rostove-velikom/">Ростов</a><a
+                                            href="https://mvariant.ru/nedvigimost/v-gorode-buy/">Буй</a><a
+                                            href="https://mvariant.ru/nedvigimost/v-galiche/">Галич</a><a
+                                            href="https://mvariant.ru/nedvigimost/v-volgorechenske/">Волгореченск</a>
                                 </div>
                             </div>
 
@@ -121,3 +146,8 @@
         </div>
     </section>
 </div>
+<script>
+    <?php include "json.txt";?>
+</script>
+<!--<script src="json.txt"
+        type="text/javascript"></script>-->
