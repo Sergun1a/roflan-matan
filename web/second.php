@@ -18,8 +18,6 @@ header("Cache-control: max-age=3600");
             src="jquery_1.11.3_jquery.min.js"></script>
     <meta name="viewport" content="width=1024">
     <link href="important.min.css" rel="stylesheet" type="text/css">
-    <script src="json.txt"
-            type="text/javascript"></script>
 </head>
 <body>
 <script>
@@ -223,6 +221,8 @@ header("Cache-control: max-age=3600");
                 </div>
             </section>
         </noindex>
+        <script src="json.txt"
+                type="text/javascript"></script>
         <script>
             function add_comment(article_id) {
                 $.ajax({
